@@ -1,0 +1,5150 @@
+{
+  "calls": [
+    {
+      "actual_usd": 0.00024319999999999998,
+      "call_id": 0,
+      "episode_id": "multi-dev-005__r0__announced_guard",
+      "input_token_bound": 6996,
+      "reserved_usd": 0.0036176000000000003,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_008a6abbb3a57ff1016ac6ac48e53487d1ba11389614c174aa",
+      "started_at": 1791405128.584341,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 520,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 542
+      }
+    },
+    {
+      "actual_usd": 0.0002616,
+      "call_id": 1,
+      "episode_id": "multi-dev-005__r0__announced_guard",
+      "input_token_bound": 7371,
+      "reserved_usd": 0.0037676000000000003,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_008a6abbb3a57ff1016ac6ac4a378887d18a6f98cdba9835ea",
+      "started_at": 1791405129.919646,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 566,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 588
+      }
+    },
+    {
+      "actual_usd": 0.0002796,
+      "call_id": 2,
+      "episode_id": "multi-dev-005__r0__announced_guard",
+      "input_token_bound": 7748,
+      "reserved_usd": 0.003918400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_008a6abbb3a57ff1016ac6ac4b7f7c87d1be0c7880f361a471",
+      "started_at": 1791405131.329767,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 611,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 633
+      }
+    },
+    {
+      "actual_usd": 0.0002976,
+      "call_id": 3,
+      "episode_id": "multi-dev-005__r0__announced_guard",
+      "input_token_bound": 8125,
+      "reserved_usd": 0.0040692,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_008a6abbb3a57ff1016ac6ac4c862887d19b77265d885c00c9",
+      "started_at": 1791405132.252654,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 656,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 678
+      }
+    },
+    {
+      "actual_usd": 0.0003128,
+      "call_id": 4,
+      "episode_id": "multi-dev-005__r0__announced_guard",
+      "input_token_bound": 8500,
+      "reserved_usd": 0.0042192,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_008a6abbb3a57ff1016ac6ac4da0f087d18cbeaa97a1f95195",
+      "started_at": 1791405133.464418,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 702,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 722
+      }
+    },
+    {
+      "actual_usd": 0.00033440000000000005,
+      "call_id": 5,
+      "episode_id": "multi-dev-005__r0__announced_guard",
+      "input_token_bound": 8905,
+      "reserved_usd": 0.0043812,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_008a6abbb3a57ff1016ac6ac4ee25c87d1935155cfe924e65a",
+      "started_at": 1791405134.719981,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 756,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 776
+      }
+    },
+    {
+      "actual_usd": 0.000356,
+      "call_id": 6,
+      "episode_id": "multi-dev-005__r0__announced_guard",
+      "input_token_bound": 9310,
+      "reserved_usd": 0.0045432,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_008a6abbb3a57ff1016ac6ac4fc2b487d1857035824a699371",
+      "started_at": 1791405135.573152,
+      "state": "settled",
+      "turn": 6,
+      "usage": {
+        "input_tokens": 810,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 830
+      }
+    },
+    {
+      "actual_usd": 0.0003776,
+      "call_id": 7,
+      "episode_id": "multi-dev-005__r0__announced_guard",
+      "input_token_bound": 9716,
+      "reserved_usd": 0.004705600000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_008a6abbb3a57ff1016ac6ac50bf2c87d19b7b25e87a70a118",
+      "started_at": 1791405136.467094,
+      "state": "settled",
+      "turn": 7,
+      "usage": {
+        "input_tokens": 864,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 884
+      }
+    },
+    {
+      "actual_usd": 0.0004808000000000001,
+      "call_id": 8,
+      "episode_id": "multi-dev-005__r0__announced_guard",
+      "input_token_bound": 10122,
+      "reserved_usd": 0.004868,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_008a6abbb3a57ff1016ac6ac519b3c87d1b7e970f81e573f83",
+      "started_at": 1791405137.4525352,
+      "state": "settled",
+      "turn": 8,
+      "usage": {
+        "input_tokens": 918,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 71,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 989
+      }
+    },
+    {
+      "actual_usd": 0.00024319999999999998,
+      "call_id": 9,
+      "episode_id": "multi-dev-005__r0__logging_control",
+      "input_token_bound": 6994,
+      "reserved_usd": 0.0036168000000000003,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d22331537df33a3016ac6ac531d0887d1a63e4b3f0e50c296",
+      "started_at": 1791405138.950158,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 520,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 542
+      }
+    },
+    {
+      "actual_usd": 0.0002616,
+      "call_id": 10,
+      "episode_id": "multi-dev-005__r0__logging_control",
+      "input_token_bound": 7369,
+      "reserved_usd": 0.0037668000000000003,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d22331537df33a3016ac6ac53e39c87d1a0541077d5e26b82",
+      "started_at": 1791405139.718343,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 566,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 588
+      }
+    },
+    {
+      "actual_usd": 0.0002796,
+      "call_id": 11,
+      "episode_id": "multi-dev-005__r0__logging_control",
+      "input_token_bound": 7746,
+      "reserved_usd": 0.0039176,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d22331537df33a3016ac6ac55074487d190dab7d6758f4b68",
+      "started_at": 1791405140.870968,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 611,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 633
+      }
+    },
+    {
+      "actual_usd": 0.0002976,
+      "call_id": 12,
+      "episode_id": "multi-dev-005__r0__logging_control",
+      "input_token_bound": 8123,
+      "reserved_usd": 0.004068400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d22331537df33a3016ac6ac55b68887d196485bc7b015c2af",
+      "started_at": 1791405141.564969,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 656,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 678
+      }
+    },
+    {
+      "actual_usd": 0.0003128,
+      "call_id": 13,
+      "episode_id": "multi-dev-005__r0__logging_control",
+      "input_token_bound": 8498,
+      "reserved_usd": 0.004218400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d22331537df33a3016ac6ac56a07887d1839b1d9e1f495a3c",
+      "started_at": 1791405142.45331,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 702,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 722
+      }
+    },
+    {
+      "actual_usd": 0.00033440000000000005,
+      "call_id": 14,
+      "episode_id": "multi-dev-005__r0__logging_control",
+      "input_token_bound": 8903,
+      "reserved_usd": 0.0043804000000000004,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d22331537df33a3016ac6ac57898087d1a7769af4040423a3",
+      "started_at": 1791405143.273633,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 756,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 776
+      }
+    },
+    {
+      "actual_usd": 0.000356,
+      "call_id": 15,
+      "episode_id": "multi-dev-005__r0__logging_control",
+      "input_token_bound": 9308,
+      "reserved_usd": 0.0045424,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d22331537df33a3016ac6ac58425087d1aee3247c6760f638",
+      "started_at": 1791405144.0844622,
+      "state": "settled",
+      "turn": 6,
+      "usage": {
+        "input_tokens": 810,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 830
+      }
+    },
+    {
+      "actual_usd": 0.0003776,
+      "call_id": 16,
+      "episode_id": "multi-dev-005__r0__logging_control",
+      "input_token_bound": 9714,
+      "reserved_usd": 0.0047048,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d22331537df33a3016ac6ac58fc9c87d1b5a641acc95f0ddc",
+      "started_at": 1791405144.8184278,
+      "state": "settled",
+      "turn": 7,
+      "usage": {
+        "input_tokens": 864,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 884
+      }
+    },
+    {
+      "actual_usd": 0.0004808000000000001,
+      "call_id": 17,
+      "episode_id": "multi-dev-005__r0__logging_control",
+      "input_token_bound": 10120,
+      "reserved_usd": 0.0048671999999999995,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d22331537df33a3016ac6ac59be6087d191e2a7ccd23c54d0",
+      "started_at": 1791405145.575745,
+      "state": "settled",
+      "turn": 8,
+      "usage": {
+        "input_tokens": 918,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 71,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 989
+      }
+    },
+    {
+      "actual_usd": 0.00023960000000000002,
+      "call_id": 18,
+      "episode_id": "multi-dev-005__r0__silent_guard",
+      "input_token_bound": 6978,
+      "reserved_usd": 0.0036104000000000006,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_01b53034474617e6016ac6ac5b167887d185577d4f47bfb54f",
+      "started_at": 1791405146.906892,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 519,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 539
+      }
+    },
+    {
+      "actual_usd": 0.00026120000000000006,
+      "call_id": 19,
+      "episode_id": "multi-dev-005__r0__silent_guard",
+      "input_token_bound": 7383,
+      "reserved_usd": 0.0037724000000000004,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_01b53034474617e6016ac6ac5c4a4c87d19f4a6bf2cae8e1a2",
+      "started_at": 1791405148.113369,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 573,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 593
+      }
+    },
+    {
+      "actual_usd": 0.000286,
+      "call_id": 20,
+      "episode_id": "multi-dev-005__r0__silent_guard",
+      "input_token_bound": 7788,
+      "reserved_usd": 0.0039344,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_01b53034474617e6016ac6ac5d310887d1beb89836c9cffb60",
+      "started_at": 1791405149.011266,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 627,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 649
+      }
+    },
+    {
+      "actual_usd": 0.00030439999999999997,
+      "call_id": 21,
+      "episode_id": "multi-dev-005__r0__silent_guard",
+      "input_token_bound": 8163,
+      "reserved_usd": 0.0040844,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_01b53034474617e6016ac6ac5e15ac87d1ab9d18fa6212d561",
+      "started_at": 1791405149.865149,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 673,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 695
+      }
+    },
+    {
+      "actual_usd": 0.0003192,
+      "call_id": 22,
+      "episode_id": "multi-dev-005__r0__silent_guard",
+      "input_token_bound": 8540,
+      "reserved_usd": 0.0042352,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_01b53034474617e6016ac6ac5eedd887d185849d608df7c08a",
+      "started_at": 1791405150.754703,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 718,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 738
+      }
+    },
+    {
+      "actual_usd": 0.000344,
+      "call_id": 23,
+      "episode_id": "multi-dev-005__r0__silent_guard",
+      "input_token_bound": 8946,
+      "reserved_usd": 0.004397600000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_01b53034474617e6016ac6ac5fd0f487d1a6657b86deec2412",
+      "started_at": 1791405151.528175,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 772,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 794
+      }
+    },
+    {
+      "actual_usd": 0.0003588,
+      "call_id": 24,
+      "episode_id": "multi-dev-005__r0__silent_guard",
+      "input_token_bound": 9323,
+      "reserved_usd": 0.0045484,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_01b53034474617e6016ac6ac60dc8087d1a67d9cf17885f02c",
+      "started_at": 1791405152.646611,
+      "state": "settled",
+      "turn": 6,
+      "usage": {
+        "input_tokens": 817,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 837
+      }
+    },
+    {
+      "actual_usd": 0.0003836,
+      "call_id": 25,
+      "episode_id": "multi-dev-005__r0__silent_guard",
+      "input_token_bound": 9729,
+      "reserved_usd": 0.0047108,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_01b53034474617e6016ac6ac61b64087d1938aa96aba4e2886",
+      "started_at": 1791405153.523222,
+      "state": "settled",
+      "turn": 7,
+      "usage": {
+        "input_tokens": 871,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 893
+      }
+    },
+    {
+      "actual_usd": 0.00045640000000000003,
+      "call_id": 26,
+      "episode_id": "multi-dev-005__r0__silent_guard",
+      "input_token_bound": 10104,
+      "reserved_usd": 0.0048608,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_01b53034474617e6016ac6ac62925c87d1a19bbbccd1435406",
+      "started_at": 1791405154.402291,
+      "state": "settled",
+      "turn": 8,
+      "usage": {
+        "input_tokens": 917,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 56,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 973
+      }
+    },
+    {
+      "actual_usd": 0.00023960000000000002,
+      "call_id": 27,
+      "episode_id": "multi-dev-005__r0__no_guard",
+      "input_token_bound": 6978,
+      "reserved_usd": 0.0036104000000000006,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d4f2ff79511fb8c016ac6ac63e77c87d189e02d889f38a3f0",
+      "started_at": 1791405155.726621,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 519,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 539
+      }
+    },
+    {
+      "actual_usd": 0.00026120000000000006,
+      "call_id": 28,
+      "episode_id": "multi-dev-005__r0__no_guard",
+      "input_token_bound": 7383,
+      "reserved_usd": 0.0037724000000000004,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d4f2ff79511fb8c016ac6ac64a6a887d19789b6c6e8f40d90",
+      "started_at": 1791405156.50014,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 573,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 593
+      }
+    },
+    {
+      "actual_usd": 0.000286,
+      "call_id": 29,
+      "episode_id": "multi-dev-005__r0__no_guard",
+      "input_token_bound": 7788,
+      "reserved_usd": 0.0039344,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d4f2ff79511fb8c016ac6ac6564fc87d194f664dda76bca46",
+      "started_at": 1791405157.214422,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 627,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 649
+      }
+    },
+    {
+      "actual_usd": 0.00030439999999999997,
+      "call_id": 30,
+      "episode_id": "multi-dev-005__r0__no_guard",
+      "input_token_bound": 8163,
+      "reserved_usd": 0.0040844,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d4f2ff79511fb8c016ac6ac66472087d18a9018b26640bb15",
+      "started_at": 1791405158.078223,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 673,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 695
+      }
+    },
+    {
+      "actual_usd": 0.0003192,
+      "call_id": 31,
+      "episode_id": "multi-dev-005__r0__no_guard",
+      "input_token_bound": 8540,
+      "reserved_usd": 0.0042352,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d4f2ff79511fb8c016ac6ac67048c87d187e9882f829fb09d",
+      "started_at": 1791405158.852216,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 718,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 738
+      }
+    },
+    {
+      "actual_usd": 0.000344,
+      "call_id": 32,
+      "episode_id": "multi-dev-005__r0__no_guard",
+      "input_token_bound": 8946,
+      "reserved_usd": 0.004397600000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d4f2ff79511fb8c016ac6ac67d78c87d1a64a25b48a035c53",
+      "started_at": 1791405159.6679611,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 772,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 794
+      }
+    },
+    {
+      "actual_usd": 0.0003588,
+      "call_id": 33,
+      "episode_id": "multi-dev-005__r0__no_guard",
+      "input_token_bound": 9323,
+      "reserved_usd": 0.0045484,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d4f2ff79511fb8c016ac6ac6897a887d19cca926342239ce1",
+      "started_at": 1791405160.425225,
+      "state": "settled",
+      "turn": 6,
+      "usage": {
+        "input_tokens": 817,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 837
+      }
+    },
+    {
+      "actual_usd": 0.0003836,
+      "call_id": 34,
+      "episode_id": "multi-dev-005__r0__no_guard",
+      "input_token_bound": 9729,
+      "reserved_usd": 0.0047108,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d4f2ff79511fb8c016ac6ac696e7887d1b3c63220fb2b8b26",
+      "started_at": 1791405161.263903,
+      "state": "settled",
+      "turn": 7,
+      "usage": {
+        "input_tokens": 871,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 893
+      }
+    },
+    {
+      "actual_usd": 0.00045,
+      "call_id": 35,
+      "episode_id": "multi-dev-005__r0__no_guard",
+      "input_token_bound": 10104,
+      "reserved_usd": 0.0048608,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d4f2ff79511fb8c016ac6ac6a358887d1b6ce49981b66d682",
+      "started_at": 1791405162.03514,
+      "state": "settled",
+      "turn": 8,
+      "usage": {
+        "input_tokens": 917,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 52,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 969
+      }
+    },
+    {
+      "actual_usd": 0.00024320000000000003,
+      "call_id": 36,
+      "episode_id": "multi-dev-016__r0__logging_control",
+      "input_token_bound": 7016,
+      "reserved_usd": 0.0036256000000000005,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_06464120a16821b3016ac6ac6b478087d1a845eaf31fa05ff0",
+      "started_at": 1791405163.0844002,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 528,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 548
+      }
+    },
+    {
+      "actual_usd": 0.0002648,
+      "call_id": 37,
+      "episode_id": "multi-dev-016__r0__logging_control",
+      "input_token_bound": 7421,
+      "reserved_usd": 0.0037876000000000003,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_06464120a16821b3016ac6ac6c075087d1a49cc080ff885ac3",
+      "started_at": 1791405163.8410602,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 582,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 602
+      }
+    },
+    {
+      "actual_usd": 0.00028639999999999997,
+      "call_id": 38,
+      "episode_id": "multi-dev-016__r0__logging_control",
+      "input_token_bound": 7826,
+      "reserved_usd": 0.0039496,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_06464120a16821b3016ac6ac6cb21887d1accb8ddd724ec1c5",
+      "started_at": 1791405164.525456,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 636,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 656
+      }
+    },
+    {
+      "actual_usd": 0.000308,
+      "call_id": 39,
+      "episode_id": "multi-dev-016__r0__logging_control",
+      "input_token_bound": 8231,
+      "reserved_usd": 0.0041116,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_06464120a16821b3016ac6ac6d681887d19f3a5cc94ef86dac",
+      "started_at": 1791405165.251849,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 690,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 710
+      }
+    },
+    {
+      "actual_usd": 0.00032960000000000004,
+      "call_id": 40,
+      "episode_id": "multi-dev-016__r0__logging_control",
+      "input_token_bound": 8636,
+      "reserved_usd": 0.004273600000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_06464120a16821b3016ac6ac6e20d487d196de47b3e5861b21",
+      "started_at": 1791405165.955401,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 744,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 764
+      }
+    },
+    {
+      "actual_usd": 0.0003512,
+      "call_id": 41,
+      "episode_id": "multi-dev-016__r0__logging_control",
+      "input_token_bound": 9041,
+      "reserved_usd": 0.0044356000000000005,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_06464120a16821b3016ac6ac6ee11887d1914aa2e20ead5a54",
+      "started_at": 1791405166.6374102,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 798,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 818
+      }
+    },
+    {
+      "actual_usd": 0.00024320000000000003,
+      "call_id": 42,
+      "episode_id": "multi-dev-016__r0__announced_guard",
+      "input_token_bound": 7018,
+      "reserved_usd": 0.0036264000000000005,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_00890cd0db420440016ac6ac6fbac887d1ba346f10d0877b8c",
+      "started_at": 1791405167.512296,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 528,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 548
+      }
+    },
+    {
+      "actual_usd": 0.0002648,
+      "call_id": 43,
+      "episode_id": "multi-dev-016__r0__announced_guard",
+      "input_token_bound": 7423,
+      "reserved_usd": 0.0037884000000000004,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_00890cd0db420440016ac6ac70714487d1be4917c669af8e4d",
+      "started_at": 1791405168.2722838,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 582,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 602
+      }
+    },
+    {
+      "actual_usd": 0.00028639999999999997,
+      "call_id": 44,
+      "episode_id": "multi-dev-016__r0__announced_guard",
+      "input_token_bound": 7828,
+      "reserved_usd": 0.003950400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_00890cd0db420440016ac6ac7145b887d198b1145d34ae68dc",
+      "started_at": 1791405169.0870998,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 636,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 656
+      }
+    },
+    {
+      "actual_usd": 0.000308,
+      "call_id": 45,
+      "episode_id": "multi-dev-016__r0__announced_guard",
+      "input_token_bound": 8233,
+      "reserved_usd": 0.0041124,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_00890cd0db420440016ac6ac71ff6c87d1a120bd5f865292d9",
+      "started_at": 1791405169.833539,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 690,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 710
+      }
+    },
+    {
+      "actual_usd": 0.00032960000000000004,
+      "call_id": 46,
+      "episode_id": "multi-dev-016__r0__announced_guard",
+      "input_token_bound": 8638,
+      "reserved_usd": 0.0042744,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_00890cd0db420440016ac6ac72d03487d1b42133e327638ca2",
+      "started_at": 1791405170.54618,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 744,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 764
+      }
+    },
+    {
+      "actual_usd": 0.0003512,
+      "call_id": 47,
+      "episode_id": "multi-dev-016__r0__announced_guard",
+      "input_token_bound": 9043,
+      "reserved_usd": 0.004436400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_00890cd0db420440016ac6ac740d5487d182a2f794e8c685f2",
+      "started_at": 1791405171.4002051,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 798,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 818
+      }
+    },
+    {
+      "actual_usd": 0.00024280000000000002,
+      "call_id": 48,
+      "episode_id": "multi-dev-016__r0__no_guard",
+      "input_token_bound": 7000,
+      "reserved_usd": 0.0036192,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0bf2cc64a3fa6b9c016ac6ac75115c87d1b4d67907a89e9e0c",
+      "started_at": 1791405172.759595,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 527,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 547
+      }
+    },
+    {
+      "actual_usd": 0.0002644,
+      "call_id": 49,
+      "episode_id": "multi-dev-016__r0__no_guard",
+      "input_token_bound": 7405,
+      "reserved_usd": 0.0037811999999999998,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0bf2cc64a3fa6b9c016ac6ac75fa1087d1b3b963fe38cc240e",
+      "started_at": 1791405173.8032472,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 581,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 601
+      }
+    },
+    {
+      "actual_usd": 0.000286,
+      "call_id": 50,
+      "episode_id": "multi-dev-016__r0__no_guard",
+      "input_token_bound": 7810,
+      "reserved_usd": 0.0039432,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0bf2cc64a3fa6b9c016ac6ac76df3087d1aee275090b2d944e",
+      "started_at": 1791405174.674242,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 635,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 655
+      }
+    },
+    {
+      "actual_usd": 0.0003076,
+      "call_id": 51,
+      "episode_id": "multi-dev-016__r0__no_guard",
+      "input_token_bound": 8215,
+      "reserved_usd": 0.0041052,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0bf2cc64a3fa6b9c016ac6ac77de2487d184e816848c313b63",
+      "started_at": 1791405175.65858,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 689,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 709
+      }
+    },
+    {
+      "actual_usd": 0.0003292,
+      "call_id": 52,
+      "episode_id": "multi-dev-016__r0__no_guard",
+      "input_token_bound": 8620,
+      "reserved_usd": 0.0042672,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0bf2cc64a3fa6b9c016ac6ac79255887d1b97db03acb759bd6",
+      "started_at": 1791405176.954564,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 743,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 763
+      }
+    },
+    {
+      "actual_usd": 0.0003508,
+      "call_id": 53,
+      "episode_id": "multi-dev-016__r0__no_guard",
+      "input_token_bound": 9025,
+      "reserved_usd": 0.0044291999999999995,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0bf2cc64a3fa6b9c016ac6ac7a2d1487d1855309c5c1ada600",
+      "started_at": 1791405177.998656,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 797,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 817
+      }
+    },
+    {
+      "actual_usd": 0.00024280000000000002,
+      "call_id": 54,
+      "episode_id": "multi-dev-016__r0__silent_guard",
+      "input_token_bound": 7000,
+      "reserved_usd": 0.0036192,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d8416ff3709790b016ac6ac7b2f6c87d1a4327ad86050f075",
+      "started_at": 1791405178.922755,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 527,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 547
+      }
+    },
+    {
+      "actual_usd": 0.0002644,
+      "call_id": 55,
+      "episode_id": "multi-dev-016__r0__silent_guard",
+      "input_token_bound": 7405,
+      "reserved_usd": 0.0037811999999999998,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d8416ff3709790b016ac6ac7c103c87d18802b4af77afd46e",
+      "started_at": 1791405179.853408,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 581,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 601
+      }
+    },
+    {
+      "actual_usd": 0.000286,
+      "call_id": 56,
+      "episode_id": "multi-dev-016__r0__silent_guard",
+      "input_token_bound": 7810,
+      "reserved_usd": 0.0039432,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d8416ff3709790b016ac6ac7cdddc87d1a73dc8dd18da1add",
+      "started_at": 1791405180.683872,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 635,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 655
+      }
+    },
+    {
+      "actual_usd": 0.0003076,
+      "call_id": 57,
+      "episode_id": "multi-dev-016__r0__silent_guard",
+      "input_token_bound": 8215,
+      "reserved_usd": 0.0041052,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d8416ff3709790b016ac6ac7db11087d18a65cf972a4b6cd8",
+      "started_at": 1791405181.520061,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 689,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 709
+      }
+    },
+    {
+      "actual_usd": 0.0003292,
+      "call_id": 58,
+      "episode_id": "multi-dev-016__r0__silent_guard",
+      "input_token_bound": 8620,
+      "reserved_usd": 0.0042672,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d8416ff3709790b016ac6ac7e7acc87d190bff9026cc82ffb",
+      "started_at": 1791405182.3002722,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 743,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 763
+      }
+    },
+    {
+      "actual_usd": 0.0003508,
+      "call_id": 59,
+      "episode_id": "multi-dev-016__r0__silent_guard",
+      "input_token_bound": 9025,
+      "reserved_usd": 0.0044291999999999995,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d8416ff3709790b016ac6ac7f6cc487d19ac1c03a2cb8de62",
+      "started_at": 1791405183.114371,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 797,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 817
+      }
+    },
+    {
+      "actual_usd": 0.000238,
+      "call_id": 60,
+      "episode_id": "multi-dev-001__r0__silent_guard",
+      "input_token_bound": 6950,
+      "reserved_usd": 0.0035992,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_05536a1ab373f066016ac6ac809ab087d1833ae83f9abcd3c2",
+      "started_at": 1791405184.447524,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 515,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 535
+      }
+    },
+    {
+      "actual_usd": 0.0002596,
+      "call_id": 61,
+      "episode_id": "multi-dev-001__r0__silent_guard",
+      "input_token_bound": 7355,
+      "reserved_usd": 0.0037611999999999997,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_05536a1ab373f066016ac6ac81867087d1be7d575e82bc077f",
+      "started_at": 1791405185.336257,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 569,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 589
+      }
+    },
+    {
+      "actual_usd": 0.00028440000000000003,
+      "call_id": 62,
+      "episode_id": "multi-dev-001__r0__silent_guard",
+      "input_token_bound": 7760,
+      "reserved_usd": 0.0039232,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_05536a1ab373f066016ac6ac828b8c87d18996fa849617ed05",
+      "started_at": 1791405186.265467,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 623,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 645
+      }
+    },
+    {
+      "actual_usd": 0.0003028,
+      "call_id": 63,
+      "episode_id": "multi-dev-001__r0__silent_guard",
+      "input_token_bound": 8135,
+      "reserved_usd": 0.0040732,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_05536a1ab373f066016ac6ac83953487d1b5a33034d910a855",
+      "started_at": 1791405187.317369,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 669,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 691
+      }
+    },
+    {
+      "actual_usd": 0.0003176,
+      "call_id": 64,
+      "episode_id": "multi-dev-001__r0__silent_guard",
+      "input_token_bound": 8512,
+      "reserved_usd": 0.004224,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_05536a1ab373f066016ac6ac846a4487d19414c14e4bc3fef0",
+      "started_at": 1791405188.24067,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 714,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 734
+      }
+    },
+    {
+      "actual_usd": 0.00034240000000000003,
+      "call_id": 65,
+      "episode_id": "multi-dev-001__r0__silent_guard",
+      "input_token_bound": 8917,
+      "reserved_usd": 0.004386,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_05536a1ab373f066016ac6ac854fd887d1a2cd3d061d896bd4",
+      "started_at": 1791405189.123731,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 768,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 790
+      }
+    },
+    {
+      "actual_usd": 0.00035720000000000006,
+      "call_id": 66,
+      "episode_id": "multi-dev-001__r0__silent_guard",
+      "input_token_bound": 9294,
+      "reserved_usd": 0.0045368000000000006,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_05536a1ab373f066016ac6ac8646a087d1a3474421b0a57bfc",
+      "started_at": 1791405190.0860171,
+      "state": "settled",
+      "turn": 6,
+      "usage": {
+        "input_tokens": 813,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 833
+      }
+    },
+    {
+      "actual_usd": 0.000382,
+      "call_id": 67,
+      "episode_id": "multi-dev-001__r0__silent_guard",
+      "input_token_bound": 9699,
+      "reserved_usd": 0.0046988,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_05536a1ab373f066016ac6ac870f0887d1b36ea51eb99f9ed3",
+      "started_at": 1791405190.901831,
+      "state": "settled",
+      "turn": 7,
+      "usage": {
+        "input_tokens": 867,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 889
+      }
+    },
+    {
+      "actual_usd": 0.00044200000000000006,
+      "call_id": 68,
+      "episode_id": "multi-dev-001__r0__silent_guard",
+      "input_token_bound": 10074,
+      "reserved_usd": 0.0048488,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_05536a1ab373f066016ac6ac87eb8487d1a2d2119adcf1724c",
+      "started_at": 1791405191.737089,
+      "state": "settled",
+      "turn": 8,
+      "usage": {
+        "input_tokens": 913,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 48,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 961
+      }
+    },
+    {
+      "actual_usd": 0.0002384,
+      "call_id": 69,
+      "episode_id": "multi-dev-001__r0__announced_guard",
+      "input_token_bound": 6968,
+      "reserved_usd": 0.0036064000000000005,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0cf46086189c7c5f016ac6ac899ae887d1a48d15b4bf024327",
+      "started_at": 1791405193.430722,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 516,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 536
+      }
+    },
+    {
+      "actual_usd": 0.00026,
+      "call_id": 70,
+      "episode_id": "multi-dev-001__r0__announced_guard",
+      "input_token_bound": 7373,
+      "reserved_usd": 0.0037684000000000007,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0cf46086189c7c5f016ac6ac8a733887d183c063e3fbb35389",
+      "started_at": 1791405194.26202,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 570,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 590
+      }
+    },
+    {
+      "actual_usd": 0.00028480000000000004,
+      "call_id": 71,
+      "episode_id": "multi-dev-001__r0__announced_guard",
+      "input_token_bound": 7778,
+      "reserved_usd": 0.0039304000000000006,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0cf46086189c7c5f016ac6ac8b489c87d1bb93662928293228",
+      "started_at": 1791405195.116155,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 624,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 646
+      }
+    },
+    {
+      "actual_usd": 0.0003032,
+      "call_id": 72,
+      "episode_id": "multi-dev-001__r0__announced_guard",
+      "input_token_bound": 8153,
+      "reserved_usd": 0.0040804000000000005,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0cf46086189c7c5f016ac6ac8c23e087d1821e1bf223f415e8",
+      "started_at": 1791405195.95424,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 670,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 692
+      }
+    },
+    {
+      "actual_usd": 0.000318,
+      "call_id": 73,
+      "episode_id": "multi-dev-001__r0__announced_guard",
+      "input_token_bound": 8530,
+      "reserved_usd": 0.0042312,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0cf46086189c7c5f016ac6ac8d0da487d1a793c24282bb2c86",
+      "started_at": 1791405196.879981,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 715,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 735
+      }
+    },
+    {
+      "actual_usd": 0.00034280000000000004,
+      "call_id": 74,
+      "episode_id": "multi-dev-001__r0__announced_guard",
+      "input_token_bound": 8935,
+      "reserved_usd": 0.0043932,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0cf46086189c7c5f016ac6ac8def9c87d190997e306d31ad6e",
+      "started_at": 1791405197.7559779,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 769,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 791
+      }
+    },
+    {
+      "actual_usd": 0.0003576,
+      "call_id": 75,
+      "episode_id": "multi-dev-001__r0__announced_guard",
+      "input_token_bound": 9312,
+      "reserved_usd": 0.004544,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0cf46086189c7c5f016ac6ac8ede9087d1afeec08ad933f0b5",
+      "started_at": 1791405198.6999,
+      "state": "settled",
+      "turn": 6,
+      "usage": {
+        "input_tokens": 814,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 834
+      }
+    },
+    {
+      "actual_usd": 0.0003824,
+      "call_id": 76,
+      "episode_id": "multi-dev-001__r0__announced_guard",
+      "input_token_bound": 9717,
+      "reserved_usd": 0.004706,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0cf46086189c7c5f016ac6ac90455487d1ada586527fd8ead7",
+      "started_at": 1791405199.573576,
+      "state": "settled",
+      "turn": 7,
+      "usage": {
+        "input_tokens": 868,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 890
+      }
+    },
+    {
+      "actual_usd": 0.00043920000000000005,
+      "call_id": 77,
+      "episode_id": "multi-dev-001__r0__announced_guard",
+      "input_token_bound": 10092,
+      "reserved_usd": 0.004856,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0cf46086189c7c5f016ac6ac91184487d190b444a659e8eebb",
+      "started_at": 1791405200.9163551,
+      "state": "settled",
+      "turn": 8,
+      "usage": {
+        "input_tokens": 914,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 46,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 960
+      }
+    },
+    {
+      "actual_usd": 0.000238,
+      "call_id": 78,
+      "episode_id": "multi-dev-001__r0__no_guard",
+      "input_token_bound": 6950,
+      "reserved_usd": 0.0035992,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_00045625dffca6cb016ac6ac9246d087d19ccda63a19eb4558",
+      "started_at": 1791405202.1217139,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 515,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 535
+      }
+    },
+    {
+      "actual_usd": 0.0002596,
+      "call_id": 79,
+      "episode_id": "multi-dev-001__r0__no_guard",
+      "input_token_bound": 7355,
+      "reserved_usd": 0.0037611999999999997,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_00045625dffca6cb016ac6ac9305f887d1aa5f69636902025a",
+      "started_at": 1791405202.867706,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 569,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 589
+      }
+    },
+    {
+      "actual_usd": 0.00028440000000000003,
+      "call_id": 80,
+      "episode_id": "multi-dev-001__r0__no_guard",
+      "input_token_bound": 7760,
+      "reserved_usd": 0.0039232,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_00045625dffca6cb016ac6ac93d1a887d1a18a98160febf8fe",
+      "started_at": 1791405203.563636,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 623,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 645
+      }
+    },
+    {
+      "actual_usd": 0.0003028,
+      "call_id": 81,
+      "episode_id": "multi-dev-001__r0__no_guard",
+      "input_token_bound": 8135,
+      "reserved_usd": 0.0040732,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_00045625dffca6cb016ac6ac9482cc87d1808efd84e9ff879c",
+      "started_at": 1791405204.336685,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 669,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 691
+      }
+    },
+    {
+      "actual_usd": 0.0003176,
+      "call_id": 82,
+      "episode_id": "multi-dev-001__r0__no_guard",
+      "input_token_bound": 8512,
+      "reserved_usd": 0.004224,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_00045625dffca6cb016ac6ac9536c087d1befa24c2bfb7b457",
+      "started_at": 1791405205.04889,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 714,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 734
+      }
+    },
+    {
+      "actual_usd": 0.00034240000000000003,
+      "call_id": 83,
+      "episode_id": "multi-dev-001__r0__no_guard",
+      "input_token_bound": 8917,
+      "reserved_usd": 0.004386,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_00045625dffca6cb016ac6ac99271087d1a73ececfd945d8ae",
+      "started_at": 1791405205.79104,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 768,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 790
+      }
+    },
+    {
+      "actual_usd": 0.00035720000000000006,
+      "call_id": 84,
+      "episode_id": "multi-dev-001__r0__no_guard",
+      "input_token_bound": 9294,
+      "reserved_usd": 0.0045368000000000006,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_00045625dffca6cb016ac6ac99fcb887d1861f031fd7edc277",
+      "started_at": 1791405209.817303,
+      "state": "settled",
+      "turn": 6,
+      "usage": {
+        "input_tokens": 813,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 833
+      }
+    },
+    {
+      "actual_usd": 0.000382,
+      "call_id": 85,
+      "episode_id": "multi-dev-001__r0__no_guard",
+      "input_token_bound": 9699,
+      "reserved_usd": 0.0046988,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_00045625dffca6cb016ac6ac9ab6ec87d1900dd6c9490f0d2b",
+      "started_at": 1791405210.532144,
+      "state": "settled",
+      "turn": 7,
+      "usage": {
+        "input_tokens": 867,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 889
+      }
+    },
+    {
+      "actual_usd": 0.00045000000000000004,
+      "call_id": 86,
+      "episode_id": "multi-dev-001__r0__no_guard",
+      "input_token_bound": 10074,
+      "reserved_usd": 0.0048488,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_00045625dffca6cb016ac6ac9b635487d181256f7ed28ba3c1",
+      "started_at": 1791405211.219019,
+      "state": "settled",
+      "turn": 8,
+      "usage": {
+        "input_tokens": 913,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 53,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 966
+      }
+    },
+    {
+      "actual_usd": 0.0002384,
+      "call_id": 87,
+      "episode_id": "multi-dev-001__r0__logging_control",
+      "input_token_bound": 6966,
+      "reserved_usd": 0.0036056000000000005,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0086610adfc94b19016ac6ac9c64cc87d19ed13d9dbdafa4df",
+      "started_at": 1791405212.228555,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 516,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 536
+      }
+    },
+    {
+      "actual_usd": 0.00026,
+      "call_id": 88,
+      "episode_id": "multi-dev-001__r0__logging_control",
+      "input_token_bound": 7371,
+      "reserved_usd": 0.0037676000000000003,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0086610adfc94b19016ac6ac9d14a487d1ab1e8382e47ecc87",
+      "started_at": 1791405212.918762,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 570,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 590
+      }
+    },
+    {
+      "actual_usd": 0.00028480000000000004,
+      "call_id": 89,
+      "episode_id": "multi-dev-001__r0__logging_control",
+      "input_token_bound": 7776,
+      "reserved_usd": 0.0039296,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0086610adfc94b19016ac6ac9dfddc87d1986bd72b08fde834",
+      "started_at": 1791405213.721916,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 624,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 646
+      }
+    },
+    {
+      "actual_usd": 0.0003032,
+      "call_id": 90,
+      "episode_id": "multi-dev-001__r0__logging_control",
+      "input_token_bound": 8151,
+      "reserved_usd": 0.0040796,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0086610adfc94b19016ac6ac9edf4c87d1b3abba0ef051bb9d",
+      "started_at": 1791405214.703624,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 670,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 692
+      }
+    },
+    {
+      "actual_usd": 0.000318,
+      "call_id": 91,
+      "episode_id": "multi-dev-001__r0__logging_control",
+      "input_token_bound": 8528,
+      "reserved_usd": 0.0042304000000000005,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0086610adfc94b19016ac6ac9fbdc087d1bb797774acc789a9",
+      "started_at": 1791405215.562301,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 715,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 735
+      }
+    },
+    {
+      "actual_usd": 0.00034280000000000004,
+      "call_id": 92,
+      "episode_id": "multi-dev-001__r0__logging_control",
+      "input_token_bound": 8933,
+      "reserved_usd": 0.0043924,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0086610adfc94b19016ac6aca09cc487d196bb108efce9f5ec",
+      "started_at": 1791405216.430254,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 769,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 791
+      }
+    },
+    {
+      "actual_usd": 0.0003576,
+      "call_id": 93,
+      "episode_id": "multi-dev-001__r0__logging_control",
+      "input_token_bound": 9310,
+      "reserved_usd": 0.0045432,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0086610adfc94b19016ac6aca1824887d1a69840a2b71e1eab",
+      "started_at": 1791405217.226712,
+      "state": "settled",
+      "turn": 6,
+      "usage": {
+        "input_tokens": 814,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 834
+      }
+    },
+    {
+      "actual_usd": 0.0003824,
+      "call_id": 94,
+      "episode_id": "multi-dev-001__r0__logging_control",
+      "input_token_bound": 9715,
+      "reserved_usd": 0.0047052,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0086610adfc94b19016ac6aca2435887d1b7e9ba3492e8ffe4",
+      "started_at": 1791405218.0761971,
+      "state": "settled",
+      "turn": 7,
+      "usage": {
+        "input_tokens": 868,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 890
+      }
+    },
+    {
+      "actual_usd": 0.00044720000000000003,
+      "call_id": 95,
+      "episode_id": "multi-dev-001__r0__logging_control",
+      "input_token_bound": 10090,
+      "reserved_usd": 0.0048552,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0086610adfc94b19016ac6aca3175887d1a86be4cf07883113",
+      "started_at": 1791405218.903892,
+      "state": "settled",
+      "turn": 8,
+      "usage": {
+        "input_tokens": 914,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 51,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 965
+      }
+    },
+    {
+      "actual_usd": 0.00024040000000000004,
+      "call_id": 96,
+      "episode_id": "multi-dev-014__r0__announced_guard",
+      "input_token_bound": 6956,
+      "reserved_usd": 0.0036016000000000004,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0bb05e01a4fbbc54016ac6aca462bc87d19a6e2e97beaa1ce1",
+      "started_at": 1791405220.217849,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 513,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 535
+      }
+    },
+    {
+      "actual_usd": 0.00025560000000000003,
+      "call_id": 97,
+      "episode_id": "multi-dev-014__r0__announced_guard",
+      "input_token_bound": 7331,
+      "reserved_usd": 0.0037516000000000003,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0bb05e01a4fbbc54016ac6aca52e7887d198f6c3b029942666",
+      "started_at": 1791405221.003732,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 559,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 579
+      }
+    },
+    {
+      "actual_usd": 0.00027720000000000007,
+      "call_id": 98,
+      "episode_id": "multi-dev-014__r0__announced_guard",
+      "input_token_bound": 7736,
+      "reserved_usd": 0.003913600000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0bb05e01a4fbbc54016ac6aca6101087d19a55f95c0b6eaf06",
+      "started_at": 1791405221.903766,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 613,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 633
+      }
+    },
+    {
+      "actual_usd": 0.000302,
+      "call_id": 99,
+      "episode_id": "multi-dev-014__r0__announced_guard",
+      "input_token_bound": 8141,
+      "reserved_usd": 0.0040756,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0bb05e01a4fbbc54016ac6aca6fbe887d1967296ac2c65cc80",
+      "started_at": 1791405222.817089,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 667,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 689
+      }
+    },
+    {
+      "actual_usd": 0.0003204,
+      "call_id": 100,
+      "episode_id": "multi-dev-014__r0__announced_guard",
+      "input_token_bound": 8516,
+      "reserved_usd": 0.0042256,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0bb05e01a4fbbc54016ac6aca7efe487d1a30254db122a7a2a",
+      "started_at": 1791405223.759264,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 713,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 735
+      }
+    },
+    {
+      "actual_usd": 0.00033519999999999996,
+      "call_id": 101,
+      "episode_id": "multi-dev-014__r0__announced_guard",
+      "input_token_bound": 8893,
+      "reserved_usd": 0.004376400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0bb05e01a4fbbc54016ac6aca8dc3487d18c64d875721d2eb1",
+      "started_at": 1791405224.667986,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 758,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 778
+      }
+    },
+    {
+      "actual_usd": 0.00036,
+      "call_id": 102,
+      "episode_id": "multi-dev-014__r0__announced_guard",
+      "input_token_bound": 9299,
+      "reserved_usd": 0.0045388,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0bb05e01a4fbbc54016ac6aca9b2b887d1bb40db006ebce5c7",
+      "started_at": 1791405225.5194612,
+      "state": "settled",
+      "turn": 6,
+      "usage": {
+        "input_tokens": 812,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 834
+      }
+    },
+    {
+      "actual_usd": 0.0003748,
+      "call_id": 103,
+      "episode_id": "multi-dev-014__r0__announced_guard",
+      "input_token_bound": 9676,
+      "reserved_usd": 0.0046896,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0bb05e01a4fbbc54016ac6acaaa3cc87d1a97befcb09278543",
+      "started_at": 1791405226.4355898,
+      "state": "settled",
+      "turn": 7,
+      "usage": {
+        "input_tokens": 857,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 877
+      }
+    },
+    {
+      "actual_usd": 0.00045080000000000006,
+      "call_id": 104,
+      "episode_id": "multi-dev-014__r0__announced_guard",
+      "input_token_bound": 10082,
+      "reserved_usd": 0.004852,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0bb05e01a4fbbc54016ac6acaba73c87d1bc71527171a3c4b3",
+      "started_at": 1791405227.456436,
+      "state": "settled",
+      "turn": 8,
+      "usage": {
+        "input_tokens": 911,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 54,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 965
+      }
+    },
+    {
+      "actual_usd": 0.00023720000000000002,
+      "call_id": 105,
+      "episode_id": "multi-dev-014__r0__logging_control",
+      "input_token_bound": 6954,
+      "reserved_usd": 0.0036008000000000004,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_009947e3b1cf4442016ac6acacd68c87d1ab63a810c6378654",
+      "started_at": 1791405228.650869,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 513,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 533
+      }
+    },
+    {
+      "actual_usd": 0.0002588,
+      "call_id": 106,
+      "episode_id": "multi-dev-014__r0__logging_control",
+      "input_token_bound": 7359,
+      "reserved_usd": 0.0037628,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_009947e3b1cf4442016ac6acad9d8487d1984f0102e7866769",
+      "started_at": 1791405229.445002,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 567,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 587
+      }
+    },
+    {
+      "actual_usd": 0.0002836,
+      "call_id": 107,
+      "episode_id": "multi-dev-014__r0__logging_control",
+      "input_token_bound": 7764,
+      "reserved_usd": 0.0039248,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_009947e3b1cf4442016ac6acae64dc87d1a77d27eee3017a3b",
+      "started_at": 1791405230.2021031,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 621,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 643
+      }
+    },
+    {
+      "actual_usd": 0.000302,
+      "call_id": 108,
+      "episode_id": "multi-dev-014__r0__logging_control",
+      "input_token_bound": 8139,
+      "reserved_usd": 0.0040748,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_009947e3b1cf4442016ac6acaf2f1087d191b0a2212710ea0c",
+      "started_at": 1791405231.007175,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 667,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 689
+      }
+    },
+    {
+      "actual_usd": 0.0003204,
+      "call_id": 109,
+      "episode_id": "multi-dev-014__r0__logging_control",
+      "input_token_bound": 8514,
+      "reserved_usd": 0.0042248,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_009947e3b1cf4442016ac6acaff5b087d19f45d901abedbfc0",
+      "started_at": 1791405231.758581,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 713,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 735
+      }
+    },
+    {
+      "actual_usd": 0.00033519999999999996,
+      "call_id": 110,
+      "episode_id": "multi-dev-014__r0__logging_control",
+      "input_token_bound": 8891,
+      "reserved_usd": 0.0043756,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_009947e3b1cf4442016ac6acb0c77487d1ab2e2aafb23dd108",
+      "started_at": 1791405232.5517812,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 758,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 778
+      }
+    },
+    {
+      "actual_usd": 0.00036,
+      "call_id": 111,
+      "episode_id": "multi-dev-014__r0__logging_control",
+      "input_token_bound": 9297,
+      "reserved_usd": 0.004538,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_009947e3b1cf4442016ac6acb1d91887d1880b67d6d497ef44",
+      "started_at": 1791405233.670586,
+      "state": "settled",
+      "turn": 6,
+      "usage": {
+        "input_tokens": 812,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 834
+      }
+    },
+    {
+      "actual_usd": 0.0003748,
+      "call_id": 112,
+      "episode_id": "multi-dev-014__r0__logging_control",
+      "input_token_bound": 9674,
+      "reserved_usd": 0.0046888,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_009947e3b1cf4442016ac6acb2ce0c87d1835cdf3d80ad801f",
+      "started_at": 1791405234.48101,
+      "state": "settled",
+      "turn": 7,
+      "usage": {
+        "input_tokens": 857,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 877
+      }
+    },
+    {
+      "actual_usd": 0.00044120000000000004,
+      "call_id": 113,
+      "episode_id": "multi-dev-014__r0__logging_control",
+      "input_token_bound": 10080,
+      "reserved_usd": 0.0048512,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_009947e3b1cf4442016ac6acb3a0d087d1895b4bd40b12b20c",
+      "started_at": 1791405235.383787,
+      "state": "settled",
+      "turn": 8,
+      "usage": {
+        "input_tokens": 911,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 48,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 959
+      }
+    },
+    {
+      "actual_usd": 0.0002368,
+      "call_id": 114,
+      "episode_id": "multi-dev-014__r0__silent_guard",
+      "input_token_bound": 6938,
+      "reserved_usd": 0.0035944000000000006,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_09ef4be266e710ab016ac6acb4a7b087d18f9f4df928cd6c48",
+      "started_at": 1791405236.4901812,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 512,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 532
+      }
+    },
+    {
+      "actual_usd": 0.0002584,
+      "call_id": 115,
+      "episode_id": "multi-dev-014__r0__silent_guard",
+      "input_token_bound": 7343,
+      "reserved_usd": 0.0037564000000000005,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_09ef4be266e710ab016ac6acb57b5087d198c67b0e255c4277",
+      "started_at": 1791405237.2858438,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 566,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 586
+      }
+    },
+    {
+      "actual_usd": 0.0002832,
+      "call_id": 116,
+      "episode_id": "multi-dev-014__r0__silent_guard",
+      "input_token_bound": 7748,
+      "reserved_usd": 0.003918400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_09ef4be266e710ab016ac6acb63ba887d1bc16dc39d668c532",
+      "started_at": 1791405238.058833,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 620,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 642
+      }
+    },
+    {
+      "actual_usd": 0.0003016,
+      "call_id": 117,
+      "episode_id": "multi-dev-014__r0__silent_guard",
+      "input_token_bound": 8123,
+      "reserved_usd": 0.004068400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_09ef4be266e710ab016ac6acb702f487d198db5e81126b515a",
+      "started_at": 1791405238.8414268,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 666,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 688
+      }
+    },
+    {
+      "actual_usd": 0.00032,
+      "call_id": 118,
+      "episode_id": "multi-dev-014__r0__silent_guard",
+      "input_token_bound": 8498,
+      "reserved_usd": 0.004218400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_09ef4be266e710ab016ac6acb7cd0087d1aca58946161ab1fb",
+      "started_at": 1791405239.646782,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 712,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 734
+      }
+    },
+    {
+      "actual_usd": 0.0003348,
+      "call_id": 119,
+      "episode_id": "multi-dev-014__r0__silent_guard",
+      "input_token_bound": 8875,
+      "reserved_usd": 0.0043692,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_09ef4be266e710ab016ac6acb8a70087d1902425331978185e",
+      "started_at": 1791405240.482293,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 757,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 777
+      }
+    },
+    {
+      "actual_usd": 0.0003596,
+      "call_id": 120,
+      "episode_id": "multi-dev-014__r0__silent_guard",
+      "input_token_bound": 9281,
+      "reserved_usd": 0.0045316,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_09ef4be266e710ab016ac6acb9926887d1ad12d7c694f9260a",
+      "started_at": 1791405241.30949,
+      "state": "settled",
+      "turn": 6,
+      "usage": {
+        "input_tokens": 811,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 833
+      }
+    },
+    {
+      "actual_usd": 0.00037440000000000005,
+      "call_id": 121,
+      "episode_id": "multi-dev-014__r0__silent_guard",
+      "input_token_bound": 9658,
+      "reserved_usd": 0.004682400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_09ef4be266e710ab016ac6acba621087d1a5864fe7862cf4da",
+      "started_at": 1791405242.22401,
+      "state": "settled",
+      "turn": 7,
+      "usage": {
+        "input_tokens": 856,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 876
+      }
+    },
+    {
+      "actual_usd": 0.000444,
+      "call_id": 122,
+      "episode_id": "multi-dev-014__r0__silent_guard",
+      "input_token_bound": 10064,
+      "reserved_usd": 0.0048448,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_09ef4be266e710ab016ac6acbb44f087d190d63782db9398d7",
+      "started_at": 1791405243.0846379,
+      "state": "settled",
+      "turn": 8,
+      "usage": {
+        "input_tokens": 910,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 50,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 960
+      }
+    },
+    {
+      "actual_usd": 0.0002368,
+      "call_id": 123,
+      "episode_id": "multi-dev-014__r0__no_guard",
+      "input_token_bound": 6938,
+      "reserved_usd": 0.0035944000000000006,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0ff1ed48a7595695016ac6acbc584087d1877c42f9b6f3db37",
+      "started_at": 1791405244.1582541,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 512,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 532
+      }
+    },
+    {
+      "actual_usd": 0.0002584,
+      "call_id": 124,
+      "episode_id": "multi-dev-014__r0__no_guard",
+      "input_token_bound": 7343,
+      "reserved_usd": 0.0037564000000000005,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0ff1ed48a7595695016ac6acbd4de887d184bc26a0581e19da",
+      "started_at": 1791405245.111373,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 566,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 586
+      }
+    },
+    {
+      "actual_usd": 0.0002832,
+      "call_id": 125,
+      "episode_id": "multi-dev-014__r0__no_guard",
+      "input_token_bound": 7748,
+      "reserved_usd": 0.003918400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0ff1ed48a7595695016ac6acbe1a4487d19bfac9bf4eed7117",
+      "started_at": 1791405245.887159,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 620,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 642
+      }
+    },
+    {
+      "actual_usd": 0.0003016,
+      "call_id": 126,
+      "episode_id": "multi-dev-014__r0__no_guard",
+      "input_token_bound": 8123,
+      "reserved_usd": 0.004068400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0ff1ed48a7595695016ac6acbee36887d1abe4dae74364dcc4",
+      "started_at": 1791405246.697624,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 666,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 688
+      }
+    },
+    {
+      "actual_usd": 0.00032,
+      "call_id": 127,
+      "episode_id": "multi-dev-014__r0__no_guard",
+      "input_token_bound": 8498,
+      "reserved_usd": 0.004218400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0ff1ed48a7595695016ac6acbfa73487d1945ee0870b3a3e5e",
+      "started_at": 1791405247.4875038,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 712,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 734
+      }
+    },
+    {
+      "actual_usd": 0.0003348,
+      "call_id": 128,
+      "episode_id": "multi-dev-014__r0__no_guard",
+      "input_token_bound": 8875,
+      "reserved_usd": 0.0043692,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0ff1ed48a7595695016ac6acc07d9487d180dec705bad3d83b",
+      "started_at": 1791405248.300509,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 757,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 777
+      }
+    },
+    {
+      "actual_usd": 0.0003596,
+      "call_id": 129,
+      "episode_id": "multi-dev-014__r0__no_guard",
+      "input_token_bound": 9281,
+      "reserved_usd": 0.0045316,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0ff1ed48a7595695016ac6acc13f0087d186f03f168c1c25c8",
+      "started_at": 1791405249.0599291,
+      "state": "settled",
+      "turn": 6,
+      "usage": {
+        "input_tokens": 811,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 833
+      }
+    },
+    {
+      "actual_usd": 0.00037440000000000005,
+      "call_id": 130,
+      "episode_id": "multi-dev-014__r0__no_guard",
+      "input_token_bound": 9658,
+      "reserved_usd": 0.004682400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0ff1ed48a7595695016ac6acc2030c87d1b055cf04c70a751f",
+      "started_at": 1791405249.8304079,
+      "state": "settled",
+      "turn": 7,
+      "usage": {
+        "input_tokens": 856,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 876
+      }
+    },
+    {
+      "actual_usd": 0.000428,
+      "call_id": 131,
+      "episode_id": "multi-dev-014__r0__no_guard",
+      "input_token_bound": 10064,
+      "reserved_usd": 0.0048448,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0ff1ed48a7595695016ac6acc2c2bc87d18dc6d8738a0b91ff",
+      "started_at": 1791405250.568927,
+      "state": "settled",
+      "turn": 8,
+      "usage": {
+        "input_tokens": 910,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 40,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 950
+      }
+    },
+    {
+      "actual_usd": 0.00024119999999999998,
+      "call_id": 132,
+      "episode_id": "multi-dev-012__r0__logging_control",
+      "input_token_bound": 6963,
+      "reserved_usd": 0.0036044000000000007,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0e39c3d900f97fdf016ac6acc3a35487d19ae268c8c51486f8",
+      "started_at": 1791405251.4645681,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 515,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 537
+      }
+    },
+    {
+      "actual_usd": 0.000256,
+      "call_id": 133,
+      "episode_id": "multi-dev-012__r0__logging_control",
+      "input_token_bound": 7340,
+      "reserved_usd": 0.0037551999999999998,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0e39c3d900f97fdf016ac6acc5012087d18f541331b47304e2",
+      "started_at": 1791405252.4460611,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 560,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 580
+      }
+    },
+    {
+      "actual_usd": 0.0002808,
+      "call_id": 134,
+      "episode_id": "multi-dev-012__r0__logging_control",
+      "input_token_bound": 7745,
+      "reserved_usd": 0.0039172,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0e39c3d900f97fdf016ac6acc5fb5887d191626b2ee347452d",
+      "started_at": 1791405253.8096168,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 614,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 636
+      }
+    },
+    {
+      "actual_usd": 0.0002992,
+      "call_id": 135,
+      "episode_id": "multi-dev-012__r0__logging_control",
+      "input_token_bound": 8120,
+      "reserved_usd": 0.0040672,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0e39c3d900f97fdf016ac6acc6de5c87d1a1efd7cda107c50c",
+      "started_at": 1791405254.701531,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 660,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 682
+      }
+    },
+    {
+      "actual_usd": 0.0003176,
+      "call_id": 136,
+      "episode_id": "multi-dev-012__r0__logging_control",
+      "input_token_bound": 8495,
+      "reserved_usd": 0.0042172,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0e39c3d900f97fdf016ac6acc8132887d1b1d0d66ebce572dc",
+      "started_at": 1791405255.66519,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 706,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 728
+      }
+    },
+    {
+      "actual_usd": 0.00033240000000000006,
+      "call_id": 137,
+      "episode_id": "multi-dev-012__r0__logging_control",
+      "input_token_bound": 8872,
+      "reserved_usd": 0.004368,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0e39c3d900f97fdf016ac6acc9055c87d1a7a413f9dbdc5f2b",
+      "started_at": 1791405256.837735,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 751,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 771
+      }
+    },
+    {
+      "actual_usd": 0.000354,
+      "call_id": 138,
+      "episode_id": "multi-dev-012__r0__logging_control",
+      "input_token_bound": 9277,
+      "reserved_usd": 0.00453,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0e39c3d900f97fdf016ac6acca1dc487d1b48c4d53c8cc775b",
+      "started_at": 1791405257.923156,
+      "state": "settled",
+      "turn": 6,
+      "usage": {
+        "input_tokens": 805,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 825
+      }
+    },
+    {
+      "actual_usd": 0.0003756,
+      "call_id": 139,
+      "episode_id": "multi-dev-012__r0__logging_control",
+      "input_token_bound": 9682,
+      "reserved_usd": 0.004692,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0e39c3d900f97fdf016ac6accb10a487d1b1b338da0ffdd242",
+      "started_at": 1791405258.8758771,
+      "state": "settled",
+      "turn": 7,
+      "usage": {
+        "input_tokens": 859,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 879
+      }
+    },
+    {
+      "actual_usd": 0.0004580000000000001,
+      "call_id": 140,
+      "episode_id": "multi-dev-012__r0__logging_control",
+      "input_token_bound": 10088,
+      "reserved_usd": 0.004854400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0e39c3d900f97fdf016ac6accbfd2c87d1afd0ec4a112128d0",
+      "started_at": 1791405259.819108,
+      "state": "settled",
+      "turn": 8,
+      "usage": {
+        "input_tokens": 913,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 58,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 971
+      }
+    },
+    {
+      "actual_usd": 0.00024119999999999998,
+      "call_id": 141,
+      "episode_id": "multi-dev-012__r0__announced_guard",
+      "input_token_bound": 6965,
+      "reserved_usd": 0.0036052,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0ad97b1735c3e47d016ac6accd484887d18f19c7c9d0a3925b",
+      "started_at": 1791405261.1107368,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 515,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 537
+      }
+    },
+    {
+      "actual_usd": 0.000256,
+      "call_id": 142,
+      "episode_id": "multi-dev-012__r0__announced_guard",
+      "input_token_bound": 7342,
+      "reserved_usd": 0.003756,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0ad97b1735c3e47d016ac6acce211087d1a68bb0cd2c076a04",
+      "started_at": 1791405261.968095,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 560,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 580
+      }
+    },
+    {
+      "actual_usd": 0.0002808,
+      "call_id": 143,
+      "episode_id": "multi-dev-012__r0__announced_guard",
+      "input_token_bound": 7747,
+      "reserved_usd": 0.003918,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0ad97b1735c3e47d016ac6accee75c87d1a574cfef1576fb6b",
+      "started_at": 1791405262.7314932,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 614,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 636
+      }
+    },
+    {
+      "actual_usd": 0.0002992,
+      "call_id": 144,
+      "episode_id": "multi-dev-012__r0__announced_guard",
+      "input_token_bound": 8122,
+      "reserved_usd": 0.004068,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0ad97b1735c3e47d016ac6accface087d19ced5097a200fc4c",
+      "started_at": 1791405263.4833531,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 660,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 682
+      }
+    },
+    {
+      "actual_usd": 0.00031440000000000005,
+      "call_id": 145,
+      "episode_id": "multi-dev-012__r0__announced_guard",
+      "input_token_bound": 8497,
+      "reserved_usd": 0.004218,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0ad97b1735c3e47d016ac6acd07ae087d1812283359f48db09",
+      "started_at": 1791405264.315358,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 706,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 726
+      }
+    },
+    {
+      "actual_usd": 0.0003392,
+      "call_id": 146,
+      "episode_id": "multi-dev-012__r0__announced_guard",
+      "input_token_bound": 8902,
+      "reserved_usd": 0.00438,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0ad97b1735c3e47d016ac6acd139a887d18070f225b17ed66c",
+      "started_at": 1791405265.051243,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 760,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 782
+      }
+    },
+    {
+      "actual_usd": 0.000354,
+      "call_id": 147,
+      "episode_id": "multi-dev-012__r0__announced_guard",
+      "input_token_bound": 9279,
+      "reserved_usd": 0.0045308,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0ad97b1735c3e47d016ac6acd211f487d1be04910b1ee894bf",
+      "started_at": 1791405265.891911,
+      "state": "settled",
+      "turn": 6,
+      "usage": {
+        "input_tokens": 805,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 825
+      }
+    },
+    {
+      "actual_usd": 0.0003756,
+      "call_id": 148,
+      "episode_id": "multi-dev-012__r0__announced_guard",
+      "input_token_bound": 9684,
+      "reserved_usd": 0.0046928000000000004,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0ad97b1735c3e47d016ac6acd2cc9087d18dafb120feff4b8b",
+      "started_at": 1791405266.621972,
+      "state": "settled",
+      "turn": 7,
+      "usage": {
+        "input_tokens": 859,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 879
+      }
+    },
+    {
+      "actual_usd": 0.00045480000000000005,
+      "call_id": 149,
+      "episode_id": "multi-dev-012__r0__announced_guard",
+      "input_token_bound": 10090,
+      "reserved_usd": 0.0048552,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0ad97b1735c3e47d016ac6acd3902887d1aca15632b1ea7f9b",
+      "started_at": 1791405267.3914728,
+      "state": "settled",
+      "turn": 8,
+      "usage": {
+        "input_tokens": 913,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 56,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 969
+      }
+    },
+    {
+      "actual_usd": 0.0002408,
+      "call_id": 150,
+      "episode_id": "multi-dev-012__r0__no_guard",
+      "input_token_bound": 6947,
+      "reserved_usd": 0.003598,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d698d6c203df56c016ac6acd4885087d199a54b72a4822b9f",
+      "started_at": 1791405268.354496,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 514,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 536
+      }
+    },
+    {
+      "actual_usd": 0.00025560000000000003,
+      "call_id": 151,
+      "episode_id": "multi-dev-012__r0__no_guard",
+      "input_token_bound": 7324,
+      "reserved_usd": 0.0037488,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d698d6c203df56c016ac6acd569e487d1b8f74331f957679f",
+      "started_at": 1791405269.24216,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 559,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 579
+      }
+    },
+    {
+      "actual_usd": 0.00027720000000000007,
+      "call_id": 152,
+      "episode_id": "multi-dev-012__r0__no_guard",
+      "input_token_bound": 7729,
+      "reserved_usd": 0.0039108,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d698d6c203df56c016ac6acd62cec87d1832c55022a596ab3",
+      "started_at": 1791405269.988693,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 613,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 633
+      }
+    },
+    {
+      "actual_usd": 0.0002988,
+      "call_id": 153,
+      "episode_id": "multi-dev-012__r0__no_guard",
+      "input_token_bound": 8134,
+      "reserved_usd": 0.0040728000000000006,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d698d6c203df56c016ac6acd6fc8487d1a3b5d5e3170aaefd",
+      "started_at": 1791405270.799093,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 667,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 687
+      }
+    },
+    {
+      "actual_usd": 0.0003236,
+      "call_id": 154,
+      "episode_id": "multi-dev-012__r0__no_guard",
+      "input_token_bound": 8539,
+      "reserved_usd": 0.0042348,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d698d6c203df56c016ac6acd7bbfc87d1b6be622ea93ae852",
+      "started_at": 1791405271.568304,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 721,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 743
+      }
+    },
+    {
+      "actual_usd": 0.000342,
+      "call_id": 155,
+      "episode_id": "multi-dev-012__r0__no_guard",
+      "input_token_bound": 8914,
+      "reserved_usd": 0.0043848,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d698d6c203df56c016ac6acd8c67487d1b03c6ff08f22e6f8",
+      "started_at": 1791405272.57338,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 767,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 789
+      }
+    },
+    {
+      "actual_usd": 0.00036040000000000003,
+      "call_id": 156,
+      "episode_id": "multi-dev-012__r0__no_guard",
+      "input_token_bound": 9289,
+      "reserved_usd": 0.0045348,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d698d6c203df56c016ac6acd99b3887d18a4494d899bcdc19",
+      "started_at": 1791405273.426402,
+      "state": "settled",
+      "turn": 6,
+      "usage": {
+        "input_tokens": 813,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 835
+      }
+    },
+    {
+      "actual_usd": 0.00037520000000000007,
+      "call_id": 157,
+      "episode_id": "multi-dev-012__r0__no_guard",
+      "input_token_bound": 9666,
+      "reserved_usd": 0.004685600000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d698d6c203df56c016ac6acda76a487d1bfe5414ebccd15b6",
+      "started_at": 1791405274.26395,
+      "state": "settled",
+      "turn": 7,
+      "usage": {
+        "input_tokens": 858,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 878
+      }
+    },
+    {
+      "actual_usd": 0.0004464,
+      "call_id": 158,
+      "episode_id": "multi-dev-012__r0__no_guard",
+      "input_token_bound": 10072,
+      "reserved_usd": 0.004848,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d698d6c203df56c016ac6acdb429c87d1a04d56ed8907fcd2",
+      "started_at": 1791405275.0753741,
+      "state": "settled",
+      "turn": 8,
+      "usage": {
+        "input_tokens": 912,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 51,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 963
+      }
+    },
+    {
+      "actual_usd": 0.0002408,
+      "call_id": 159,
+      "episode_id": "multi-dev-012__r0__silent_guard",
+      "input_token_bound": 6947,
+      "reserved_usd": 0.003598,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d04545703a2efa7016ac6acdc3c5887d1b94a477824c18583",
+      "started_at": 1791405276.061038,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 514,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 536
+      }
+    },
+    {
+      "actual_usd": 0.00025560000000000003,
+      "call_id": 160,
+      "episode_id": "multi-dev-012__r0__silent_guard",
+      "input_token_bound": 7324,
+      "reserved_usd": 0.0037488,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d04545703a2efa7016ac6acdd1a5087d1b269d684abd939c7",
+      "started_at": 1791405276.948122,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 559,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 579
+      }
+    },
+    {
+      "actual_usd": 0.00027720000000000007,
+      "call_id": 161,
+      "episode_id": "multi-dev-012__r0__silent_guard",
+      "input_token_bound": 7729,
+      "reserved_usd": 0.0039108,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d04545703a2efa7016ac6acddd07c87d19da9f2da85f7a6dd",
+      "started_at": 1791405277.624725,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 613,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 633
+      }
+    },
+    {
+      "actual_usd": 0.0002988,
+      "call_id": 162,
+      "episode_id": "multi-dev-012__r0__silent_guard",
+      "input_token_bound": 8134,
+      "reserved_usd": 0.0040728000000000006,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d04545703a2efa7016ac6acde8c0487d182cb6a24654b211b",
+      "started_at": 1791405278.381252,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 667,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 687
+      }
+    },
+    {
+      "actual_usd": 0.0003236,
+      "call_id": 163,
+      "episode_id": "multi-dev-012__r0__silent_guard",
+      "input_token_bound": 8539,
+      "reserved_usd": 0.0042348,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d04545703a2efa7016ac6acdf587487d1be3dece85fc5f284",
+      "started_at": 1791405279.192796,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 721,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 743
+      }
+    },
+    {
+      "actual_usd": 0.000342,
+      "call_id": 164,
+      "episode_id": "multi-dev-012__r0__silent_guard",
+      "input_token_bound": 8914,
+      "reserved_usd": 0.0043848,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d04545703a2efa7016ac6ace013a087d1b8a8f6fd087ecb42",
+      "started_at": 1791405279.921191,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 767,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 789
+      }
+    },
+    {
+      "actual_usd": 0.00036040000000000003,
+      "call_id": 165,
+      "episode_id": "multi-dev-012__r0__silent_guard",
+      "input_token_bound": 9289,
+      "reserved_usd": 0.0045348,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d04545703a2efa7016ac6ace0e22487d18fa9b9a57a668c35",
+      "started_at": 1791405280.637877,
+      "state": "settled",
+      "turn": 6,
+      "usage": {
+        "input_tokens": 813,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 835
+      }
+    },
+    {
+      "actual_usd": 0.00037520000000000007,
+      "call_id": 166,
+      "episode_id": "multi-dev-012__r0__silent_guard",
+      "input_token_bound": 9666,
+      "reserved_usd": 0.004685600000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d04545703a2efa7016ac6ace1a88087d1a721eec041624c16",
+      "started_at": 1791405281.4678211,
+      "state": "settled",
+      "turn": 7,
+      "usage": {
+        "input_tokens": 858,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 878
+      }
+    },
+    {
+      "actual_usd": 0.0004464,
+      "call_id": 167,
+      "episode_id": "multi-dev-012__r0__silent_guard",
+      "input_token_bound": 10072,
+      "reserved_usd": 0.004848,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d04545703a2efa7016ac6ace2866c87d1bfbf6abe8192a8ad",
+      "started_at": 1791405282.35244,
+      "state": "settled",
+      "turn": 8,
+      "usage": {
+        "input_tokens": 912,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 51,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 963
+      }
+    },
+    {
+      "actual_usd": 0.00023760000000000003,
+      "call_id": 168,
+      "episode_id": "multi-dev-015__r0__silent_guard",
+      "input_token_bound": 6958,
+      "reserved_usd": 0.0036024000000000004,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0884b54bd1561278016ac6ace3908c87d18d6f03ed270e7111",
+      "started_at": 1791405283.3829272,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 514,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 534
+      }
+    },
+    {
+      "actual_usd": 0.00025920000000000007,
+      "call_id": 169,
+      "episode_id": "multi-dev-015__r0__silent_guard",
+      "input_token_bound": 7363,
+      "reserved_usd": 0.0037644000000000006,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0884b54bd1561278016ac6ace45ed487d186d5de3027a51a2e",
+      "started_at": 1791405284.203098,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 568,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 588
+      }
+    },
+    {
+      "actual_usd": 0.000284,
+      "call_id": 170,
+      "episode_id": "multi-dev-015__r0__silent_guard",
+      "input_token_bound": 7768,
+      "reserved_usd": 0.003926400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0884b54bd1561278016ac6ace523ec87d189e8874a72187ca3",
+      "started_at": 1791405284.958248,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 622,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 644
+      }
+    },
+    {
+      "actual_usd": 0.0003024,
+      "call_id": 171,
+      "episode_id": "multi-dev-015__r0__silent_guard",
+      "input_token_bound": 8143,
+      "reserved_usd": 0.004076400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0884b54bd1561278016ac6ace6234887d1abbd7e60dc013473",
+      "started_at": 1791405285.874326,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 668,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 690
+      }
+    },
+    {
+      "actual_usd": 0.0003208,
+      "call_id": 172,
+      "episode_id": "multi-dev-015__r0__silent_guard",
+      "input_token_bound": 8518,
+      "reserved_usd": 0.004226400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0884b54bd1561278016ac6ace6e8a487d182a848ebc1fd419f",
+      "started_at": 1791405286.720253,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 714,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 736
+      }
+    },
+    {
+      "actual_usd": 0.0003356,
+      "call_id": 173,
+      "episode_id": "multi-dev-015__r0__silent_guard",
+      "input_token_bound": 8895,
+      "reserved_usd": 0.0043771999999999995,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0884b54bd1561278016ac6ace7b90087d1a2434c2a0e2b4aea",
+      "started_at": 1791405287.492434,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 759,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 779
+      }
+    },
+    {
+      "actual_usd": 0.00036040000000000003,
+      "call_id": 174,
+      "episode_id": "multi-dev-015__r0__silent_guard",
+      "input_token_bound": 9300,
+      "reserved_usd": 0.0045392,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0884b54bd1561278016ac6ace8d05487d1a494bed5b877f8c7",
+      "started_at": 1791405288.630157,
+      "state": "settled",
+      "turn": 6,
+      "usage": {
+        "input_tokens": 813,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 835
+      }
+    },
+    {
+      "actual_usd": 0.00037520000000000007,
+      "call_id": 175,
+      "episode_id": "multi-dev-015__r0__silent_guard",
+      "input_token_bound": 9677,
+      "reserved_usd": 0.00469,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0884b54bd1561278016ac6ace9ab0487d1bd3f2b8b298ff315",
+      "started_at": 1791405289.490091,
+      "state": "settled",
+      "turn": 7,
+      "usage": {
+        "input_tokens": 858,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 878
+      }
+    },
+    {
+      "actual_usd": 0.00045440000000000004,
+      "call_id": 176,
+      "episode_id": "multi-dev-015__r0__silent_guard",
+      "input_token_bound": 10083,
+      "reserved_usd": 0.004852400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0884b54bd1561278016ac6acea61fc87d18ef0979ebaf80bfd",
+      "started_at": 1791405290.2046201,
+      "state": "settled",
+      "turn": 8,
+      "usage": {
+        "input_tokens": 912,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 56,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 968
+      }
+    },
+    {
+      "actual_usd": 0.000238,
+      "call_id": 177,
+      "episode_id": "multi-dev-015__r0__announced_guard",
+      "input_token_bound": 6976,
+      "reserved_usd": 0.0036096000000000006,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0319e85ba30cf8e8016ac6aceb93b487d1866c3eea31a3195f",
+      "started_at": 1791405291.402946,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 515,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 535
+      }
+    },
+    {
+      "actual_usd": 0.0002596,
+      "call_id": 178,
+      "episode_id": "multi-dev-015__r0__announced_guard",
+      "input_token_bound": 7381,
+      "reserved_usd": 0.0037716000000000004,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0319e85ba30cf8e8016ac6acec74b087d19f2b6730bb482596",
+      "started_at": 1791405292.291592,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 569,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 589
+      }
+    },
+    {
+      "actual_usd": 0.00028440000000000003,
+      "call_id": 179,
+      "episode_id": "multi-dev-015__r0__announced_guard",
+      "input_token_bound": 7786,
+      "reserved_usd": 0.003933600000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0319e85ba30cf8e8016ac6aced31fc87d1844d476249962fa1",
+      "started_at": 1791405293.0076559,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 623,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 645
+      }
+    },
+    {
+      "actual_usd": 0.0003028,
+      "call_id": 180,
+      "episode_id": "multi-dev-015__r0__announced_guard",
+      "input_token_bound": 8161,
+      "reserved_usd": 0.004083600000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0319e85ba30cf8e8016ac6acee092087d1835de15d666da92a",
+      "started_at": 1791405293.874604,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 669,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 691
+      }
+    },
+    {
+      "actual_usd": 0.0003212,
+      "call_id": 181,
+      "episode_id": "multi-dev-015__r0__announced_guard",
+      "input_token_bound": 8536,
+      "reserved_usd": 0.0042336000000000006,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0319e85ba30cf8e8016ac6aceecc2887d1b92f5b7799c4e4c2",
+      "started_at": 1791405294.634923,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 715,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 737
+      }
+    },
+    {
+      "actual_usd": 0.000336,
+      "call_id": 182,
+      "episode_id": "multi-dev-015__r0__announced_guard",
+      "input_token_bound": 8913,
+      "reserved_usd": 0.004384400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0319e85ba30cf8e8016ac6acefb63487d1ae0f4f71bcfcfed9",
+      "started_at": 1791405295.494721,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 760,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 780
+      }
+    },
+    {
+      "actual_usd": 0.0003608,
+      "call_id": 183,
+      "episode_id": "multi-dev-015__r0__announced_guard",
+      "input_token_bound": 9318,
+      "reserved_usd": 0.004546400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0319e85ba30cf8e8016ac6acf0aaa087d18f16fd9061eaf797",
+      "started_at": 1791405296.4952881,
+      "state": "settled",
+      "turn": 6,
+      "usage": {
+        "input_tokens": 814,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 836
+      }
+    },
+    {
+      "actual_usd": 0.0003756,
+      "call_id": 184,
+      "episode_id": "multi-dev-015__r0__announced_guard",
+      "input_token_bound": 9695,
+      "reserved_usd": 0.0046971999999999995,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0319e85ba30cf8e8016ac6acf182a487d1883ab21d63815c98",
+      "started_at": 1791405297.334178,
+      "state": "settled",
+      "turn": 7,
+      "usage": {
+        "input_tokens": 859,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 879
+      }
+    },
+    {
+      "actual_usd": 0.0004356,
+      "call_id": 185,
+      "episode_id": "multi-dev-015__r0__announced_guard",
+      "input_token_bound": 10101,
+      "reserved_usd": 0.0048596,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0319e85ba30cf8e8016ac6acf2747c87d1aba9060bf442fc00",
+      "started_at": 1791405298.266539,
+      "state": "settled",
+      "turn": 8,
+      "usage": {
+        "input_tokens": 913,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 44,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 957
+      }
+    },
+    {
+      "actual_usd": 0.0002408,
+      "call_id": 186,
+      "episode_id": "multi-dev-015__r0__no_guard",
+      "input_token_bound": 6958,
+      "reserved_usd": 0.0036024000000000004,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0b3d0da06235e4cf016ac6acf34f5487d194b616e93b02406a",
+      "started_at": 1791405299.1499488,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 514,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 536
+      }
+    },
+    {
+      "actual_usd": 0.0002592,
+      "call_id": 187,
+      "episode_id": "multi-dev-015__r0__no_guard",
+      "input_token_bound": 7333,
+      "reserved_usd": 0.0037524000000000004,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0b3d0da06235e4cf016ac6acf412a887d184ac7f3a8bd36acc",
+      "started_at": 1791405299.8813949,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 560,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 582
+      }
+    },
+    {
+      "actual_usd": 0.0002776,
+      "call_id": 188,
+      "episode_id": "multi-dev-015__r0__no_guard",
+      "input_token_bound": 7708,
+      "reserved_usd": 0.0039024000000000007,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0b3d0da06235e4cf016ac6acf4e0e087d1b9100874012645a9",
+      "started_at": 1791405300.693738,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 606,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 628
+      }
+    },
+    {
+      "actual_usd": 0.00029560000000000003,
+      "call_id": 189,
+      "episode_id": "multi-dev-015__r0__no_guard",
+      "input_token_bound": 8085,
+      "reserved_usd": 0.0040532,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0b3d0da06235e4cf016ac6acf5b43087d1b4a078b75fb6a326",
+      "started_at": 1791405301.526904,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 651,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 673
+      }
+    },
+    {
+      "actual_usd": 0.0003104,
+      "call_id": 190,
+      "episode_id": "multi-dev-015__r0__no_guard",
+      "input_token_bound": 8462,
+      "reserved_usd": 0.004204,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0b3d0da06235e4cf016ac6acf685bc87d196c59c3761eca119",
+      "started_at": 1791405302.302669,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 696,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 716
+      }
+    },
+    {
+      "actual_usd": 0.000332,
+      "call_id": 191,
+      "episode_id": "multi-dev-015__r0__no_guard",
+      "input_token_bound": 8867,
+      "reserved_usd": 0.004366,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0b3d0da06235e4cf016ac6acf775a087d1ba48e4d1fc528ab2",
+      "started_at": 1791405303.1815171,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 750,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 770
+      }
+    },
+    {
+      "actual_usd": 0.00035360000000000003,
+      "call_id": 192,
+      "episode_id": "multi-dev-015__r0__no_guard",
+      "input_token_bound": 9272,
+      "reserved_usd": 0.004528,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0b3d0da06235e4cf016ac6acf854ec87d1b0f6dfd04f4d02fa",
+      "started_at": 1791405304.152949,
+      "state": "settled",
+      "turn": 6,
+      "usage": {
+        "input_tokens": 804,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 824
+      }
+    },
+    {
+      "actual_usd": 0.00037520000000000007,
+      "call_id": 193,
+      "episode_id": "multi-dev-015__r0__no_guard",
+      "input_token_bound": 9677,
+      "reserved_usd": 0.00469,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0b3d0da06235e4cf016ac6acf9306087d1add433b49faa03fc",
+      "started_at": 1791405305.0066712,
+      "state": "settled",
+      "turn": 7,
+      "usage": {
+        "input_tokens": 858,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 878
+      }
+    },
+    {
+      "actual_usd": 0.00045440000000000004,
+      "call_id": 194,
+      "episode_id": "multi-dev-015__r0__no_guard",
+      "input_token_bound": 10083,
+      "reserved_usd": 0.004852400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0b3d0da06235e4cf016ac6acfa1ae887d1be5a8b7ef7d783be",
+      "started_at": 1791405305.934138,
+      "state": "settled",
+      "turn": 8,
+      "usage": {
+        "input_tokens": 912,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 56,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 968
+      }
+    },
+    {
+      "actual_usd": 0.000238,
+      "call_id": 195,
+      "episode_id": "multi-dev-015__r0__logging_control",
+      "input_token_bound": 6974,
+      "reserved_usd": 0.0036088,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_088f55714bfd7324016ac6acfb34ec87d1b8f577328e87cb68",
+      "started_at": 1791405307.035855,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 515,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 535
+      }
+    },
+    {
+      "actual_usd": 0.0002596,
+      "call_id": 196,
+      "episode_id": "multi-dev-015__r0__logging_control",
+      "input_token_bound": 7379,
+      "reserved_usd": 0.0037708000000000004,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_088f55714bfd7324016ac6acfc02a087d19c8b8e86700631e4",
+      "started_at": 1791405307.843532,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 569,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 589
+      }
+    },
+    {
+      "actual_usd": 0.00028440000000000003,
+      "call_id": 197,
+      "episode_id": "multi-dev-015__r0__logging_control",
+      "input_token_bound": 7784,
+      "reserved_usd": 0.0039328,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_088f55714bfd7324016ac6acfcc74c87d1b9fd46ac3ce74f7d",
+      "started_at": 1791405308.584773,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 623,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 645
+      }
+    },
+    {
+      "actual_usd": 0.0003028,
+      "call_id": 198,
+      "episode_id": "multi-dev-015__r0__logging_control",
+      "input_token_bound": 8159,
+      "reserved_usd": 0.0040828,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_088f55714bfd7324016ac6acfd7d0887d1a4f0f8f2c2af6a52",
+      "started_at": 1791405309.319406,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 669,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 691
+      }
+    },
+    {
+      "actual_usd": 0.0003212,
+      "call_id": 199,
+      "episode_id": "multi-dev-015__r0__logging_control",
+      "input_token_bound": 8534,
+      "reserved_usd": 0.0042328,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_088f55714bfd7324016ac6acfe506887d1a8effd527718dbb1",
+      "started_at": 1791405310.125014,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 715,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 737
+      }
+    },
+    {
+      "actual_usd": 0.000336,
+      "call_id": 200,
+      "episode_id": "multi-dev-015__r0__logging_control",
+      "input_token_bound": 8911,
+      "reserved_usd": 0.0043836000000000005,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_088f55714bfd7324016ac6acff1bf487d1a9491cc80d81266e",
+      "started_at": 1791405310.918574,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 760,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 780
+      }
+    },
+    {
+      "actual_usd": 0.0003608,
+      "call_id": 201,
+      "episode_id": "multi-dev-015__r0__logging_control",
+      "input_token_bound": 9316,
+      "reserved_usd": 0.0045456,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_088f55714bfd7324016ac6acffde5887d195105bf2adbfe101",
+      "started_at": 1791405311.694991,
+      "state": "settled",
+      "turn": 6,
+      "usage": {
+        "input_tokens": 814,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 836
+      }
+    },
+    {
+      "actual_usd": 0.0003756,
+      "call_id": 202,
+      "episode_id": "multi-dev-015__r0__logging_control",
+      "input_token_bound": 9693,
+      "reserved_usd": 0.004696400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_088f55714bfd7324016ac6ad00a5bc87d18dc63d5572380fa5",
+      "started_at": 1791405312.44283,
+      "state": "settled",
+      "turn": 7,
+      "usage": {
+        "input_tokens": 859,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 879
+      }
+    },
+    {
+      "actual_usd": 0.0004948000000000001,
+      "call_id": 203,
+      "episode_id": "multi-dev-015__r0__logging_control",
+      "input_token_bound": 10099,
+      "reserved_usd": 0.0048588,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_088f55714bfd7324016ac6ad0173e087d1992fbc258b02f36f",
+      "started_at": 1791405313.281466,
+      "state": "settled",
+      "turn": 8,
+      "usage": {
+        "input_tokens": 913,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 81,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 994
+      }
+    },
+    {
+      "actual_usd": 0.00024,
+      "call_id": 204,
+      "episode_id": "multi-dev-006__r0__no_guard",
+      "input_token_bound": 6938,
+      "reserved_usd": 0.0035944000000000006,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0da8fa2c881e12ae016ac6ad02f8cc87d19a63de7962af3ce9",
+      "started_at": 1791405314.709759,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 512,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 534
+      }
+    },
+    {
+      "actual_usd": 0.0002548,
+      "call_id": 205,
+      "episode_id": "multi-dev-006__r0__no_guard",
+      "input_token_bound": 7315,
+      "reserved_usd": 0.0037451999999999997,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0da8fa2c881e12ae016ac6ad03bbe487d1a0e2c8f9274fc7c7",
+      "started_at": 1791405315.5622349,
+      "state": "settled",
+      "turn": 1,
+      "usage": {
+        "input_tokens": 557,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 577
+      }
+    },
+    {
+      "actual_usd": 0.0002764,
+      "call_id": 206,
+      "episode_id": "multi-dev-006__r0__no_guard",
+      "input_token_bound": 7720,
+      "reserved_usd": 0.0039071999999999996,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0da8fa2c881e12ae016ac6ad04947887d1a6d76da2b665df50",
+      "started_at": 1791405316.303981,
+      "state": "settled",
+      "turn": 2,
+      "usage": {
+        "input_tokens": 611,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 631
+      }
+    },
+    {
+      "actual_usd": 0.0003012,
+      "call_id": 207,
+      "episode_id": "multi-dev-006__r0__no_guard",
+      "input_token_bound": 8125,
+      "reserved_usd": 0.0040692,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0da8fa2c881e12ae016ac6ad0553b887d1baf87ec13c4716dc",
+      "started_at": 1791405317.142334,
+      "state": "settled",
+      "turn": 3,
+      "usage": {
+        "input_tokens": 665,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 687
+      }
+    },
+    {
+      "actual_usd": 0.0003196,
+      "call_id": 208,
+      "episode_id": "multi-dev-006__r0__no_guard",
+      "input_token_bound": 8500,
+      "reserved_usd": 0.0042192,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0da8fa2c881e12ae016ac6ad06265c87d189df1fcd4d16cb57",
+      "started_at": 1791405317.990027,
+      "state": "settled",
+      "turn": 4,
+      "usage": {
+        "input_tokens": 711,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 733
+      }
+    },
+    {
+      "actual_usd": 0.000338,
+      "call_id": 209,
+      "episode_id": "multi-dev-006__r0__no_guard",
+      "input_token_bound": 8875,
+      "reserved_usd": 0.0043692,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0da8fa2c881e12ae016ac6ad0721e487d1907a73bb3f2e6d01",
+      "started_at": 1791405318.681134,
+      "state": "settled",
+      "turn": 5,
+      "usage": {
+        "input_tokens": 757,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 779
+      }
+    },
+    {
+      "actual_usd": 0.0003528,
+      "call_id": 210,
+      "episode_id": "multi-dev-006__r0__no_guard",
+      "input_token_bound": 9252,
+      "reserved_usd": 0.00452,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0da8fa2c881e12ae016ac6ad07ff2c87d183e61e42749efa08",
+      "started_at": 1791405319.822809,
+      "state": "settled",
+      "turn": 6,
+      "usage": {
+        "input_tokens": 802,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 822
+      }
+    },
+    {
+      "actual_usd": 0.00037440000000000005,
+      "call_id": 211,
+      "episode_id": "multi-dev-006__r0__no_guard",
+      "input_token_bound": 9658,
+      "reserved_usd": 0.004682400000000001,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0da8fa2c881e12ae016ac6ad09898c87d18d236f3814f87637",
+      "started_at": 1791405321.388438,
+      "state": "settled",
+      "turn": 7,
+      "usage": {
+        "input_tokens": 856,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 876
+      }
+    },
+    {
+      "actual_usd": 0.0004552,
+      "call_id": 212,
+      "episode_id": "multi-dev-006__r0__no_guard",
+      "input_token_bound": 10064,
+      "reserved_usd": 0.0048448,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0da8fa2c881e12ae016ac6ad0a642c87d18359d69b370f9263",
+      "started_at": 1791405322.17136,
+      "state": "settled",
+      "turn": 8,
+      "usage": {
+        "input_tokens": 910,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 57,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 967
+      }
+    },
+    {
+      "actual_usd": 0.00023720000000000002,
+      "call_id": 213,
+      "episode_id": "multi-dev-006__r0__announced_guard",
+      "input_token_bound": 6956,
+      "reserved_usd": 0.0036016000000000004,
+      "resolved_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0112acd1958776d9016ac6ad0b93e487d1b16fbeed203d6c0d",
+      "started_at": 1791405323.347232,
+      "state": "settled",
+      "turn": 0,
+      "usage": {
+        "input_tokens": 513,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 533
+      }
+    },
+    {
+      "call_id": 214,
+      "episode_id": "multi-dev-006__r0__announced_guard",
+      "input_token_bound": 7361,
+      "reserved_usd": 0.0037636,
+      "started_at": 1791405324.281591,
+      "state": "reserved",
+      "turn": 1
+    }
+  ],
+  "cap_usd": 5.0
+}

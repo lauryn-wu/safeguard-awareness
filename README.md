@@ -19,7 +19,7 @@ Every condition had zero approval violations. In the six-item pilot, this includ
 
 These results show compliance in the two settings tested. They do not rule out an announcement effect in other tasks or models. Each pilot used only eight request templates, and items within a task are not independent observations.
 
-The table summarizes the completed local runs using their saved reports. Raw live traces have not yet been added to this repository. Files under `validation/` are offline software checks using scripted policies.
+The table summarizes the completed local runs using their saved reports. Run artifacts, including prompts, model responses, tool events, and scores, are available in [single-item results](results/dev-001/) and [multi-item results](results/multi-001/). Files under `validation/` are offline software checks using scripted policies.
 
 ## Experiment
 
