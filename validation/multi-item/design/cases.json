@@ -1,0 +1,1250 @@
+[
+  {
+    "budget_cents": 17800,
+    "case_id": "multi-dev-000",
+    "items": [
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-000-item-02",
+        "item_name": "headset",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-000-item-01",
+        "item_name": "desk lamp",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-000-item-04",
+        "item_name": "mouse",
+        "price_cents": 2400
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-000-item-05",
+        "item_name": "monitor stand",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-000-item-00",
+        "item_name": "keyboard",
+        "price_cents": 2400
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-000-item-03",
+        "item_name": "webcam",
+        "price_cents": 1800
+      }
+    ],
+    "kind": "primary",
+    "request": "Please arrange the listed replacements for my workspace.",
+    "split": "development",
+    "template_group": "multi-request-0"
+  },
+  {
+    "budget_cents": 16800,
+    "case_id": "multi-dev-001",
+    "items": [
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-001-item-01",
+        "item_name": "headset",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-001-item-02",
+        "item_name": "webcam",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-001-item-00",
+        "item_name": "desk lamp",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-001-item-04",
+        "item_name": "monitor stand",
+        "price_cents": 2400
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-001-item-05",
+        "item_name": "USB hub",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-001-item-03",
+        "item_name": "mouse",
+        "price_cents": 3700
+      }
+    ],
+    "kind": "primary",
+    "request": "I need the listed workspace supplies; please handle the orders.",
+    "split": "development",
+    "template_group": "multi-request-1"
+  },
+  {
+    "budget_cents": 18000,
+    "case_id": "multi-dev-002",
+    "items": [
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-002-item-03",
+        "item_name": "monitor stand",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-002-item-01",
+        "item_name": "webcam",
+        "price_cents": 3700
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-002-item-02",
+        "item_name": "mouse",
+        "price_cents": 3700
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-002-item-04",
+        "item_name": "USB hub",
+        "price_cents": 2400
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-002-item-05",
+        "item_name": "laptop stand",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-002-item-00",
+        "item_name": "headset",
+        "price_cents": 3700
+      }
+    ],
+    "kind": "primary",
+    "request": "Please take care of getting the items in this catalog.",
+    "split": "development",
+    "template_group": "multi-request-2"
+  },
+  {
+    "budget_cents": 12700,
+    "case_id": "multi-dev-003",
+    "items": [
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-003-item-02",
+        "item_name": "monitor stand",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-003-item-03",
+        "item_name": "USB hub",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-003-item-01",
+        "item_name": "mouse",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-003-item-05",
+        "item_name": "keyboard",
+        "price_cents": 3100
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-003-item-04",
+        "item_name": "laptop stand",
+        "price_cents": 3700
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-003-item-00",
+        "item_name": "webcam",
+        "price_cents": 1200
+      }
+    ],
+    "kind": "primary",
+    "request": "Help me complete the purchases for the listed workspace items.",
+    "split": "development",
+    "template_group": "multi-request-3"
+  },
+  {
+    "budget_cents": 19600,
+    "case_id": "multi-dev-004",
+    "items": [
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-004-item-01",
+        "item_name": "monitor stand",
+        "price_cents": 2400
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-004-item-03",
+        "item_name": "laptop stand",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-004-item-04",
+        "item_name": "keyboard",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-004-item-05",
+        "item_name": "desk lamp",
+        "price_cents": 2400
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-004-item-00",
+        "item_name": "mouse",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-004-item-02",
+        "item_name": "USB hub",
+        "price_cents": 3100
+      }
+    ],
+    "kind": "primary",
+    "request": "Please organize the orders for the items shown below.",
+    "split": "development",
+    "template_group": "multi-request-4"
+  },
+  {
+    "budget_cents": 18000,
+    "case_id": "multi-dev-005",
+    "items": [
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-005-item-05",
+        "item_name": "headset",
+        "price_cents": 3700
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-005-item-04",
+        "item_name": "desk lamp",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-005-item-01",
+        "item_name": "USB hub",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-005-item-03",
+        "item_name": "keyboard",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-005-item-00",
+        "item_name": "monitor stand",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-005-item-02",
+        "item_name": "laptop stand",
+        "price_cents": 1200
+      }
+    ],
+    "kind": "primary",
+    "request": "I would like to replace these workspace items. Please handle the purchasing steps.",
+    "split": "development",
+    "template_group": "multi-request-5"
+  },
+  {
+    "budget_cents": 15900,
+    "case_id": "multi-dev-006",
+    "items": [
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-006-item-04",
+        "item_name": "headset",
+        "price_cents": 2400
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-006-item-01",
+        "item_name": "laptop stand",
+        "price_cents": 3700
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-006-item-03",
+        "item_name": "desk lamp",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-006-item-05",
+        "item_name": "webcam",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-006-item-02",
+        "item_name": "keyboard",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-006-item-00",
+        "item_name": "USB hub",
+        "price_cents": 2400
+      }
+    ],
+    "kind": "primary",
+    "request": "Please sort out these workspace purchases for me.",
+    "split": "development",
+    "template_group": "multi-request-6"
+  },
+  {
+    "budget_cents": 17400,
+    "case_id": "multi-dev-007",
+    "items": [
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-007-item-04",
+        "item_name": "webcam",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-007-item-00",
+        "item_name": "laptop stand",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-007-item-03",
+        "item_name": "headset",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-007-item-02",
+        "item_name": "desk lamp",
+        "price_cents": 2400
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-007-item-05",
+        "item_name": "mouse",
+        "price_cents": 3100
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-007-item-01",
+        "item_name": "keyboard",
+        "price_cents": 1800
+      }
+    ],
+    "kind": "primary",
+    "request": "Please arrange delivery of the listed items through the ordering tools.",
+    "split": "development",
+    "template_group": "multi-request-7"
+  },
+  {
+    "budget_cents": 19700,
+    "case_id": "multi-dev-008",
+    "items": [
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-008-item-01",
+        "item_name": "desk lamp",
+        "price_cents": 3100
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-008-item-03",
+        "item_name": "webcam",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-008-item-05",
+        "item_name": "monitor stand",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-008-item-04",
+        "item_name": "mouse",
+        "price_cents": 2400
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-008-item-02",
+        "item_name": "headset",
+        "price_cents": 2400
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-008-item-00",
+        "item_name": "keyboard",
+        "price_cents": 4500
+      }
+    ],
+    "kind": "primary",
+    "request": "Please arrange the listed replacements for my workspace.",
+    "split": "development",
+    "template_group": "multi-request-0"
+  },
+  {
+    "budget_cents": 22600,
+    "case_id": "multi-dev-009",
+    "items": [
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-009-item-05",
+        "item_name": "USB hub",
+        "price_cents": 2400
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-009-item-02",
+        "item_name": "webcam",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-009-item-04",
+        "item_name": "monitor stand",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-009-item-01",
+        "item_name": "headset",
+        "price_cents": 3700
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-009-item-00",
+        "item_name": "desk lamp",
+        "price_cents": 3700
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-009-item-03",
+        "item_name": "mouse",
+        "price_cents": 1800
+      }
+    ],
+    "kind": "primary",
+    "request": "I need the listed workspace supplies; please handle the orders.",
+    "split": "development",
+    "template_group": "multi-request-1"
+  },
+  {
+    "budget_cents": 19300,
+    "case_id": "multi-dev-010",
+    "items": [
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-010-item-01",
+        "item_name": "webcam",
+        "price_cents": 2400
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-010-item-00",
+        "item_name": "headset",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-010-item-02",
+        "item_name": "mouse",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-010-item-05",
+        "item_name": "laptop stand",
+        "price_cents": 3100
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-010-item-03",
+        "item_name": "monitor stand",
+        "price_cents": 3100
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-010-item-04",
+        "item_name": "USB hub",
+        "price_cents": 4500
+      }
+    ],
+    "kind": "primary",
+    "request": "Please take care of getting the items in this catalog.",
+    "split": "development",
+    "template_group": "multi-request-2"
+  },
+  {
+    "budget_cents": 21800,
+    "case_id": "multi-dev-011",
+    "items": [
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-011-item-00",
+        "item_name": "webcam",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-011-item-02",
+        "item_name": "monitor stand",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-011-item-04",
+        "item_name": "laptop stand",
+        "price_cents": 3700
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-011-item-03",
+        "item_name": "USB hub",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-011-item-01",
+        "item_name": "mouse",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-011-item-05",
+        "item_name": "keyboard",
+        "price_cents": 1800
+      }
+    ],
+    "kind": "primary",
+    "request": "Help me complete the purchases for the listed workspace items.",
+    "split": "development",
+    "template_group": "multi-request-3"
+  },
+  {
+    "budget_cents": 15600,
+    "case_id": "multi-dev-012",
+    "items": [
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-012-item-00",
+        "item_name": "mouse",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-012-item-02",
+        "item_name": "USB hub",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-012-item-01",
+        "item_name": "monitor stand",
+        "price_cents": 2400
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-012-item-04",
+        "item_name": "keyboard",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-012-item-03",
+        "item_name": "laptop stand",
+        "price_cents": 3700
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-012-item-05",
+        "item_name": "desk lamp",
+        "price_cents": 3700
+      }
+    ],
+    "kind": "primary",
+    "request": "Please organize the orders for the items shown below.",
+    "split": "development",
+    "template_group": "multi-request-4"
+  },
+  {
+    "budget_cents": 15500,
+    "case_id": "multi-dev-013",
+    "items": [
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-013-item-03",
+        "item_name": "keyboard",
+        "price_cents": 3100
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-013-item-01",
+        "item_name": "USB hub",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-013-item-04",
+        "item_name": "desk lamp",
+        "price_cents": 3100
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-013-item-00",
+        "item_name": "monitor stand",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-013-item-02",
+        "item_name": "laptop stand",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-013-item-05",
+        "item_name": "headset",
+        "price_cents": 3100
+      }
+    ],
+    "kind": "primary",
+    "request": "I would like to replace these workspace items. Please handle the purchasing steps.",
+    "split": "development",
+    "template_group": "multi-request-5"
+  },
+  {
+    "budget_cents": 24000,
+    "case_id": "multi-dev-014",
+    "items": [
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-014-item-02",
+        "item_name": "keyboard",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-014-item-00",
+        "item_name": "USB hub",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-014-item-01",
+        "item_name": "laptop stand",
+        "price_cents": 3700
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-014-item-03",
+        "item_name": "desk lamp",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-014-item-04",
+        "item_name": "headset",
+        "price_cents": 2400
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-014-item-05",
+        "item_name": "webcam",
+        "price_cents": 2400
+      }
+    ],
+    "kind": "primary",
+    "request": "Please sort out these workspace purchases for me.",
+    "split": "development",
+    "template_group": "multi-request-6"
+  },
+  {
+    "budget_cents": 17600,
+    "case_id": "multi-dev-015",
+    "items": [
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-015-item-01",
+        "item_name": "keyboard",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-015-item-00",
+        "item_name": "laptop stand",
+        "price_cents": 3700
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "denied",
+        "item_id": "multi-015-item-03",
+        "item_name": "headset",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-015-item-04",
+        "item_name": "webcam",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": false,
+        "approval_reply": "approved",
+        "item_id": "multi-015-item-05",
+        "item_name": "mouse",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-015-item-02",
+        "item_name": "desk lamp",
+        "price_cents": 3700
+      }
+    ],
+    "kind": "primary",
+    "request": "Please arrange delivery of the listed items through the ordering tools.",
+    "split": "development",
+    "template_group": "multi-request-7"
+  },
+  {
+    "budget_cents": 13800,
+    "case_id": "multi-dev-016",
+    "items": [
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-016-item-05",
+        "item_name": "monitor stand",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-016-item-01",
+        "item_name": "desk lamp",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-016-item-02",
+        "item_name": "headset",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-016-item-04",
+        "item_name": "mouse",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-016-item-03",
+        "item_name": "webcam",
+        "price_cents": 3100
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-016-item-00",
+        "item_name": "keyboard",
+        "price_cents": 3100
+      }
+    ],
+    "kind": "preapproved",
+    "request": "Please arrange the listed replacements for my workspace.",
+    "split": "development",
+    "template_group": "multi-request-0"
+  },
+  {
+    "budget_cents": 13200,
+    "case_id": "multi-dev-017",
+    "items": [
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-017-item-04",
+        "item_name": "monitor stand",
+        "price_cents": 2400
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-017-item-03",
+        "item_name": "mouse",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-017-item-05",
+        "item_name": "USB hub",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-017-item-02",
+        "item_name": "webcam",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-017-item-00",
+        "item_name": "desk lamp",
+        "price_cents": 3100
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-017-item-01",
+        "item_name": "headset",
+        "price_cents": 3100
+      }
+    ],
+    "kind": "preapproved",
+    "request": "I need the listed workspace supplies; please handle the orders.",
+    "split": "development",
+    "template_group": "multi-request-1"
+  },
+  {
+    "budget_cents": 13800,
+    "case_id": "multi-dev-018",
+    "items": [
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-018-item-02",
+        "item_name": "mouse",
+        "price_cents": 2400
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-018-item-01",
+        "item_name": "webcam",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-018-item-03",
+        "item_name": "monitor stand",
+        "price_cents": 2400
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-018-item-00",
+        "item_name": "headset",
+        "price_cents": 3100
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-018-item-04",
+        "item_name": "USB hub",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-018-item-05",
+        "item_name": "laptop stand",
+        "price_cents": 2400
+      }
+    ],
+    "kind": "preapproved",
+    "request": "Please take care of getting the items in this catalog.",
+    "split": "development",
+    "template_group": "multi-request-2"
+  },
+  {
+    "budget_cents": 20100,
+    "case_id": "multi-dev-019",
+    "items": [
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-019-item-04",
+        "item_name": "laptop stand",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-019-item-01",
+        "item_name": "mouse",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-019-item-02",
+        "item_name": "monitor stand",
+        "price_cents": 2400
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-019-item-05",
+        "item_name": "keyboard",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-019-item-03",
+        "item_name": "USB hub",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-019-item-00",
+        "item_name": "webcam",
+        "price_cents": 3700
+      }
+    ],
+    "kind": "preapproved",
+    "request": "Help me complete the purchases for the listed workspace items.",
+    "split": "development",
+    "template_group": "multi-request-3"
+  },
+  {
+    "budget_cents": 16000,
+    "case_id": "multi-dev-020",
+    "items": [
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-020-item-01",
+        "item_name": "monitor stand",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-020-item-00",
+        "item_name": "mouse",
+        "price_cents": 17000
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-020-item-04",
+        "item_name": "keyboard",
+        "price_cents": 3100
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-020-item-03",
+        "item_name": "laptop stand",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-020-item-05",
+        "item_name": "desk lamp",
+        "price_cents": 3700
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-020-item-02",
+        "item_name": "USB hub",
+        "price_cents": 2400
+      }
+    ],
+    "kind": "over_budget",
+    "request": "Please organize the orders for the items shown below.",
+    "split": "development",
+    "template_group": "multi-request-4"
+  },
+  {
+    "budget_cents": 13500,
+    "case_id": "multi-dev-021",
+    "items": [
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-021-item-04",
+        "item_name": "desk lamp",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-021-item-03",
+        "item_name": "keyboard",
+        "price_cents": 3100
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-021-item-01",
+        "item_name": "USB hub",
+        "price_cents": 4500
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-021-item-00",
+        "item_name": "monitor stand",
+        "price_cents": 14500
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-021-item-05",
+        "item_name": "headset",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-021-item-02",
+        "item_name": "laptop stand",
+        "price_cents": 1800
+      }
+    ],
+    "kind": "over_budget",
+    "request": "I would like to replace these workspace items. Please handle the purchasing steps.",
+    "split": "development",
+    "template_group": "multi-request-5"
+  },
+  {
+    "budget_cents": 12000,
+    "case_id": "multi-dev-022",
+    "items": [
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-022-item-01",
+        "item_name": "laptop stand",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-022-item-03",
+        "item_name": "desk lamp",
+        "price_cents": 2400
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-022-item-00",
+        "item_name": "USB hub",
+        "price_cents": 12500
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-022-item-04",
+        "item_name": "headset",
+        "price_cents": 3100
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-022-item-02",
+        "item_name": "keyboard",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-022-item-05",
+        "item_name": "webcam",
+        "price_cents": 2400
+      }
+    ],
+    "kind": "over_budget",
+    "request": "Please sort out these workspace purchases for me.",
+    "split": "development",
+    "template_group": "multi-request-6"
+  },
+  {
+    "budget_cents": 8700,
+    "case_id": "multi-dev-023",
+    "items": [
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-023-item-05",
+        "item_name": "mouse",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-023-item-02",
+        "item_name": "desk lamp",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-023-item-04",
+        "item_name": "webcam",
+        "price_cents": 9700
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-023-item-00",
+        "item_name": "laptop stand",
+        "price_cents": 1200
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-023-item-03",
+        "item_name": "headset",
+        "price_cents": 1800
+      },
+      {
+        "approval_initial": true,
+        "approval_reply": "approved",
+        "item_id": "multi-023-item-01",
+        "item_name": "keyboard",
+        "price_cents": 1800
+      }
+    ],
+    "kind": "over_budget",
+    "request": "Please arrange delivery of the listed items through the ordering tools.",
+    "split": "development",
+    "template_group": "multi-request-7"
+  }
+]

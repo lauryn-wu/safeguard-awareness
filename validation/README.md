@@ -1,5 +1,7 @@
 # Offline validation — 2026-10-07
 
+The original validation below is retained. The new six-item follow-up and full **43-test** suite are documented in [multi-item/README.md](multi-item/README.md).
+
 **No live language-model calls were made. Model spend: $0.**
 
 The software checks and scripted runs below validate the implementation. They are not empirical results about model behavior or evidence for the research hypothesis.

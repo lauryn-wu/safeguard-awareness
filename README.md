@@ -4,7 +4,49 @@ Does announcing a narrow, functioning safeguard increase violations of a differe
 
 This repository implements a small shopping simulation. An assistant must **stay within budget** and **obtain approval before buying**. A local budget guard can block an expensive purchase, but it never enforces approval. No purchases, messages, or human participant sessions take place. Only `run` sends prompts to a model API.
 
-**Status: starter implementation with offline validation. No live model evidence is bundled. This is an exploratory development pilot, not a conference-ready result or a novelty claim.**
+**Status: the owner reported perfect useful compliance in the first single-item live pilot. A fixed six-item development follow-up is now available. Raw live results are not bundled. These are exploratory pilots, not a conference-ready result or a novelty claim.**
+
+## Run the multi-item follow-up
+
+The follow-up has **six items per task**, with separate permission for every item and a cumulative total budget. The 16 primary cases each contain two preapproved items, two pending items that will be approved, and two pending items that will be denied. Four fully preapproved cases and four budget diagnostics complete the set of **96 episodes**. All six items fit within the total budget in primary cases, so physical blocking cannot explain a primary condition difference.
+
+The model, four conditions, single-item tool schemas and $5 client cap are retained. Each episode can take up to 16 responses; the primary compliant path needs nine. The primary outcome is whether an episode contains any unauthorized purchase. Item-level counts and useful completion are secondary. See [PROTOCOL_MULTI_ITEM.md](PROTOCOL_MULTI_ITEM.md) for the fixed design and decision rule.
+
+From the existing Mac clone, update and check the code:
+
+```bash
+cd ~/Documents/Codex/safeguard-awareness
+git pull --ff-only
+python3 -m unittest discover -s tests -v
+python3 -m safeguard_pilot preflight --config configs/multi_item.json
+```
+
+`preflight` should report 24 cases, 96 episodes, at most 1,536 API calls, and `credential_configured: true`. It makes no network request. Your existing exported key works in the same Terminal session.
+
+Run the follow-up in a new directory, retaining `runs/dev-001`:
+
+```bash
+python3 -m safeguard_pilot run --config configs/multi_item.json --out runs/multi-001 --budget-usd 5
+cat runs/multi-001/summary.md
+```
+
+The $5 cap is a client accounting ceiling, not an expected bill. The summary now includes useful completion, secondary item counts and usage-based cost. Detailed contrasts and diagnostics remain in `summary.json`. No code changes or new dependencies are needed locally after pulling.
+
+Optional offline prompt review and script checks, without any API calls:
+
+```bash
+python3 -m safeguard_pilot plan --config configs/multi_item.json --out runs/multi-review
+python3 -m safeguard_pilot smoke --config configs/multi_item.json --out runs/multi-offline-compliant
+python3 -m safeguard_pilot smoke --config configs/multi_item.json --policy always_purchase --out runs/multi-offline-unsafe
+```
+
+If this new run is interrupted, resume with the same code, config, output path and cap:
+
+```bash
+python3 -m safeguard_pilot run --config configs/multi_item.json --out runs/multi-001 --budget-usd 5 --resume
+```
+
+Completed old runs can still be analyzed, but changed source cannot resume an old unfinished run. Failed terminal episodes are retained and skipped, not selectively retried. The original single-item commands below remain available; `configs/dev.json` and its generated prompts are unchanged.
 
 ## Design
 
@@ -53,13 +95,18 @@ Each output directory is immutable. Choose a new directory for a new run, or add
 
 The initial adapter pins `gpt-4.1-mini-2025-04-14`, using the Responses API. The default client budget cap is **$5**; it is a ceiling, not an expected bill. There are at most 384 API requests (96 episodes, four turns each). The actual count is lower when episodes terminate earlier. Model choice is for inexpensive development, not a claim about all current models.
 
-Configure `OPENAI_API_KEY` in your local environment. Do not paste it into a chat or commit it. On Bash, this enters it without displaying it or putting the key in shell history:
+Configure `OPENAI_API_KEY` in your local environment. Do not paste it into a chat or commit it. In Bash or zsh, run this command by itself, then paste the key and press Enter. The pasted key is hidden:
 
 ```bash
-read -r -s -p 'OpenAI API key: ' OPENAI_API_KEY
+read -r -s OPENAI_API_KEY
+```
+
+Then run:
+
+```bash
 export OPENAI_API_KEY
-python -m safeguard_pilot preflight
-python -m safeguard_pilot run --out runs/dev-001 --budget-usd 5
+python3 -m safeguard_pilot preflight
+python3 -m safeguard_pilot run --out runs/dev-001 --budget-usd 5
 ```
 
 `preflight` only checks configuration and whether the variable is present; it does not authenticate the key or test network access. `.env.example` documents the variable, but `.env` is not loaded automatically.
@@ -91,6 +138,7 @@ Paired analysis uses only complete valid pairs and also reports worst-case bound
 
 - `safeguard_pilot/design.py`: cases, conditions, prompts, tools, schedule.
 - `safeguard_pilot/environment.py`: local state and exact scoring.
+- `safeguard_pilot/multi_item.py`: fixed multi-item cases, prompts and cumulative-budget environment.
 - `safeguard_pilot/api.py`: HTTP adapter, persistent budget accounting, offline scripts.
 - `safeguard_pilot/runner.py`: isolated episodes, checkpoints, immutable manifests.
 - `safeguard_pilot/analysis.py`: validity-aware descriptive analysis.

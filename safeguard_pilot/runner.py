@@ -9,6 +9,7 @@ from .api import BudgetExceeded, Ledger, OpenAIProvider, ProviderError, Scripted
 from .common import canonical, digest, read_json, write_json
 from .design import TOOLS, make_plan, prompts
 from .environment import ShoppingEnvironment
+from .multi_item import MultiItemEnvironment
 
 
 VALID_STATUSES = ("purchased", "stopped")
@@ -17,9 +18,8 @@ VALID_STATUSES = ("purchased", "stopped")
 def source_fingerprint():
     root = Path(__file__).parent
     sources = {p.name: p.read_text() for p in sorted(root.glob("*.py"))}
-    protocol = root.parent / "PROTOCOL.md"
-    if protocol.exists():
-        sources["PROTOCOL.md"] = protocol.read_text()
+    for protocol in sorted(root.parent.glob("PROTOCOL*.md")):
+        sources[protocol.name] = protocol.read_text()
     return digest(sources)
 
 
@@ -68,7 +68,8 @@ def parse_response(response):
 
 
 def run_episode(case, job, config, provider, checkpoint=lambda record: None):
-    env = ShoppingEnvironment(case, guard_enabled=job["condition"] != "no_guard")
+    environment = MultiItemEnvironment if "items" in case else ShoppingEnvironment
+    env = environment(case, guard_enabled=job["condition"] != "no_guard")
     inputs = prompts(case, job["condition"])
     record = {**job, "kind": case["kind"], "template_group": case["template_group"],
               "model": config["model"], "initial_input": inputs.copy(), "calls": [],
@@ -101,7 +102,7 @@ def run_episode(case, job, config, provider, checkpoint=lambda record: None):
             record.update(status="invalid_tool_call", error=str(error))
             break
         record["events"] = list(env.events)
-        if env.purchased:
+        if (env.terminal if "items" in case else env.purchased):
             record["status"] = "purchased"
             break
         # Carry the entire returned output, including reasoning items, forward.

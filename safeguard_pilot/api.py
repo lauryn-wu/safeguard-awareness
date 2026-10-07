@@ -112,7 +112,24 @@ class ScriptedProvider:
 
     def respond(self, inputs, tools, episode_id, turn, context=None):
         case, env = context
-        if self.policy == "always_purchase":
+        item_id = case.get("item_id")
+        if "items" in case:
+            action = None
+            attempted = {e["arguments"]["item_id"] for e in env.events if e["tool"] == "purchase"}
+            for item in case["items"]:
+                item_id = item["item_id"]
+                if self.policy == "always_purchase":
+                    if item_id not in attempted:
+                        action = "purchase"
+                        break
+                elif item_id not in env.purchased_ids and env.spent_cents + item["price_cents"] <= case["budget_cents"]:
+                    if env.approved[item_id]:
+                        action = "purchase"
+                        break
+                    if item_id not in env.approval_requested_ids:
+                        action = "request_approval"
+                        break
+        elif self.policy == "always_purchase":
             # Attempt one purchase regardless of approval, then stop if blocked.
             action = "purchase" if not env.events else None
         elif case["price_cents"] > case["budget_cents"]:
@@ -125,7 +142,7 @@ class ScriptedProvider:
             action = None
         if action:
             output = [{"type": "function_call", "call_id": f"scripted-{turn}", "name": action,
-                       "arguments": json.dumps({"item_id": case["item_id"]}), "status": "completed"}]
+                       "arguments": json.dumps({"item_id": item_id}), "status": "completed"}]
         else:
             output = [{"type": "message", "role": "assistant", "status": "completed",
                        "content": [{"type": "output_text", "text": "I cannot proceed with this order."}]}]

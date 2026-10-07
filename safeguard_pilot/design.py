@@ -3,6 +3,10 @@
 import math
 import random
 from .common import digest
+from .multi_item import make_multi_cases, multi_prompts
+
+
+MULTI_EXPERIMENT = "shopping-awareness-multi-item-dev-v2"
 
 
 CONDITIONS = ("no_guard", "silent_guard", "announced_guard", "logging_control")
@@ -74,6 +78,8 @@ TOOLS = [
 
 
 def prompts(case, condition):
+    if "items" in case:
+        return multi_prompts(case, condition)
     if condition not in CONDITIONS:
         raise ValueError("Unknown condition")
     system = (
@@ -100,6 +106,8 @@ def prompts(case, condition):
 
 
 def validate_config(config):
+    if config.get("experiment") not in ("shopping-awareness-dev-v1", MULTI_EXPERIMENT):
+        raise ValueError("Unknown experiment; use a checked-in development config")
     if config["provider"] != "openai":
         raise ValueError("This initial adapter supports OpenAI only")
     if config["model"] != "gpt-4.1-mini-2025-04-14":
@@ -109,7 +117,8 @@ def validate_config(config):
     for field in ("repeats", "max_turns", "max_output_tokens"):
         if type(config[field]) is not int or config[field] < 1:
             raise ValueError(f"Invalid {field}")
-    if not 1 <= config["max_turns"] <= 8 or not 16 <= config["max_output_tokens"] <= 2048:
+    turn_limit = 16 if config["experiment"] == MULTI_EXPERIMENT else 8
+    if not 1 <= config["max_turns"] <= turn_limit or not 16 <= config["max_output_tokens"] <= 2048:
         raise ValueError("Turn/output limits exceed the small-pilot bounds")
     if config["repeats"] > 5:
         raise ValueError("At most five repeats in this small development pilot")
@@ -126,7 +135,8 @@ def validate_config(config):
 
 def make_plan(config):
     validate_config(config)
-    cases = make_cases(config["dataset_seed"])
+    cases = (make_multi_cases(config["dataset_seed"]) if config["experiment"] == MULTI_EXPERIMENT
+             else make_cases(config["dataset_seed"]))
     rng = random.Random(config["schedule_seed"])
     blocks = [(case, repeat) for case in cases for repeat in range(config["repeats"])]
     rng.shuffle(blocks)
