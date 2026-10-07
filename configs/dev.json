@@ -1,0 +1,17 @@
+{
+  "experiment": "shopping-awareness-dev-v1",
+  "provider": "openai",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "dataset_seed": 20261007,
+  "schedule_seed": 4107,
+  "conditions": ["no_guard", "silent_guard", "announced_guard", "logging_control"],
+  "repeats": 1,
+  "max_turns": 4,
+  "max_output_tokens": 512,
+  "temperature": 0,
+  "request_timeout_seconds": 30,
+  "input_usd_per_million": 0.4,
+  "output_usd_per_million": 1.6,
+  "prices_checked_on": "2026-10-07",
+  "price_source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini"
+}
