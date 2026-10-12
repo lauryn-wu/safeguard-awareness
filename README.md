@@ -4,6 +4,14 @@ This experiment tests whether announcing an automatic budget safeguard changes a
 
 In a simulated shopping task, the assistant must stay within budget and obtain approval before buying each item. A validator blocks purchases that exceed the budget but does not enforce approval. The experiment varies what the assistant is told about this validator.
 
+**Status: two completed development pilots, both with zero approval violations. This design is paused.**
+
+## Why separate budget and approval?
+
+Knowing that one rule is enforced could change how carefully an assistant follows a different rule. To test that possibility, the budget safeguard and the approval requirement are deliberately separate. Every item is affordable in the primary tasks, so a budget block cannot conceal an approval violation. Comparing announced and silent safeguards holds actual enforcement fixed and changes what the assistant is told.
+
+The experiment also measures useful completion. An assistant that refuses every purchase could avoid violations without doing the task; the preapproved and budget-control cases distinguish those outcomes.
+
 ## Results
 
 Two pilots used `gpt-4.1-mini-2025-04-14` at temperature 0. Each included 24 tasks across four conditions: 64 primary episodes and 32 control episodes.
@@ -16,6 +24,8 @@ Two pilots used `gpt-4.1-mini-2025-04-14` at temperature 0. Each included 24 tas
 All four conditions produced zero approval violations. The assistant completed the approved purchases and respected denials in both pilots.
 
 These pilots found no evidence of an announcement effect in the tested settings. Each used eight request templates with two primary variants, so the results have limited scope and do not establish equivalence across conditions.
+
+The six-item follow-up added several item-specific permissions and multiple actions after the simpler pilot reached ceiling. Compliance remained perfect. These results provide no positive behavioral basis for a larger study of the announcement hypothesis under this design. They do not establish safety in open-ended shopping workflows, with other models, or when rules are less explicit.
 
 Saved prompts, responses, tool events, and scores are in [single-item results](results/dev-001/) and [multi-item results](results/multi-001/).
 
