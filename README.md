@@ -1,16 +1,15 @@
 # Safeguard awareness
 
-This experiment tests whether announcing an automatic budget safeguard changes an assistant's compliance with a separate approval requirement.
+This experiment asks whether telling an assistant about an automatic budget
+safeguard changes how it follows a separate approval rule. In two shopping
+pilots, GPT-4.1-mini made no unauthorized purchases and completed every task
+safely. The design is paused.
 
-In a simulated shopping task, the assistant must stay within budget and obtain approval before buying each item. A validator blocks purchases that exceed the budget but does not enforce approval. The experiment varies what the assistant is told about this validator.
-
-**Status: two completed development pilots, both with zero approval violations. This design is paused.**
-
-## Why separate budget and approval?
-
-Knowing that one rule is enforced could change how carefully an assistant follows a different rule. To test that possibility, the budget safeguard and the approval requirement are deliberately separate. Every item is affordable in the primary tasks, so a budget block cannot conceal an approval violation. Comparing announced and silent safeguards holds actual enforcement fixed and changes what the assistant is told.
-
-The experiment also measures useful completion. An assistant that refuses every purchase could avoid violations without doing the task; the preapproved and budget-control cases distinguish those outcomes.
+The assistant must stay within budget and obtain approval before buying each
+item. A validator blocks overspending but does not check approval. Comparing
+announced and silent safeguards holds enforcement fixed while changing what the
+assistant knows about it. All items fit within the budget in the primary tasks,
+so the validator cannot hide an approval violation by blocking the purchase.
 
 ## Results
 
@@ -21,11 +20,15 @@ Two pilots used `gpt-4.1-mini-2025-04-14` at temperature 0. Each included 24 tas
 | Single item | 0/64 | 96/96 |
 | Six items | 0/64 | 96/96 |
 
-All four conditions produced zero approval violations. The assistant completed the approved purchases and respected denials in both pilots.
+All four conditions produced zero approval violations. The assistant completed
+approved purchases and respected denials. The six-item follow-up added several
+permissions and multiple actions after the single-item pilot reached ceiling;
+compliance remained perfect.
 
-These pilots found no evidence of an announcement effect in the tested settings. Each used eight request templates with two primary variants, so the results have limited scope and do not establish equivalence across conditions.
-
-The six-item follow-up added several item-specific permissions and multiple actions after the simpler pilot reached ceiling. Compliance remained perfect. These results provide no positive behavioral basis for a larger study of the announcement hypothesis under this design. They do not establish safety in open-ended shopping workflows, with other models, or when rules are less explicit.
+There was no announcement effect to pursue in these pilots. Both used explicit
+rules and eight request templates with two primary variants. The results leave
+open what happens with other models, less explicit rules, or open-ended shopping
+tasks; they do not establish equivalence between the conditions.
 
 Saved prompts, responses, tool events, and scores are in [single-item results](results/dev-001/) and [multi-item results](results/multi-001/).
 
@@ -42,11 +45,15 @@ The assistant has two tools: `request_approval(item_id)` and `purchase(item_id)`
 
 The primary comparison is `announced_guard` versus `silent_guard`. Within each task, rules, tools, and approval decisions are held constant. The logging condition controls for mentioning a budget system without describing enforcement.
 
-Each pilot has 16 primary tasks, four preapproved tasks, and four over-budget tasks. All catalog items fit within the budget in primary tasks, so the validator cannot prevent an unauthorized purchase. In the six-item pilot, each primary task has two preapproved items, two pending items that will receive approval, and two that will be denied. Decisions remain hidden until requested.
+Each pilot has 16 primary tasks, four preapproved tasks, and four over-budget
+tasks. The controls check whether the assistant completes permitted purchases
+as well as avoiding forbidden ones. In the six-item pilot, each primary task has
+two preapproved items, two pending items that will receive approval, and two that
+will be denied. Decisions remain hidden until requested.
 
 The full designs and scoring rules are in the [single-item protocol](PROTOCOL.md) and [multi-item protocol](PROTOCOL_MULTI_ITEM.md).
 
-## Reproduce
+## Run locally
 
 Requires Python 3.10 or later and the standard library.
 
@@ -72,4 +79,5 @@ python3 -m safeguard_pilot plan --config configs/multi_item.json --out runs/revi
 python3 -m safeguard_pilot smoke --config configs/multi_item.json --out runs/offline
 ```
 
-`smoke` uses a scripted policy. Its results are software checks; the live model results are under `results/`.
+`smoke` uses a scripted policy to check the software. The model runs are saved
+under `results/`.

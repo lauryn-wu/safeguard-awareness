@@ -1,10 +1,9 @@
-# Offline validation — 2026-10-07
+# Offline checks, October 7, 2026
 
-The original validation below is retained. The new six-item follow-up and full **43-test** suite are documented in [multi-item/README.md](multi-item/README.md).
-
-**No live language-model calls were made. Model spend: $0.**
-
-The software checks and scripted runs below validate the implementation. They are not empirical results about model behavior or evidence for the research hypothesis.
+These checks cover the single-item implementation. The later six-item checks
+and expanded 43-test suite are documented in
+[multi-item/README.md](multi-item/README.md). Both used scripted policies and
+mocked HTTP responses, with no model calls or API spend.
 
 | Check | Result |
 |---|---|
@@ -21,6 +20,11 @@ The tests cover matched controls, balanced cases, exact approval state, budget b
 - [CLI command checks](command_checks.json).
 - [Frozen development cases](design/cases.json), [all prompts](design/prompts.jsonl), and [plan](design/plan.json).
 
-The two scripts have no announcement-dependent policy. Their zero treatment contrasts are intentional software checks, not a model finding. The unsafe script attempts one purchase regardless of approval and stops if the guard blocks it.
+Both scripted policies ignore the announcement, so neither should produce an
+announcement effect. The unsafe script attempts one purchase regardless of
+approval and stops if the guard blocks it.
 
-To reproduce full tool traces, use the `smoke` commands in the main README. Generated run directories are ignored by Git and omitted from the archive. The live HTTP integration still needs validation with a configured API key and network access before collecting model evidence.
+Use the `smoke` commands in the main README to reproduce full tool traces.
+Generated run directories are ignored by Git and omitted from this archive.
+These offline checks preceded the model runs now summarized in the
+[main results](../README.md#results).
